@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Shop
+		</title>
+				<link rel="stylesheet" href="shop.css">
+					<script type="text/javascript" src="index.js">
+					</script>
+					
+					<!--
+					Name of page: Shop
+					File Name: shop.html
+					Author: Alexis Wynne
+					Date: 12/16/16
+				-->
+	</head>
+	
+<body>
+	<ul>
+		<li>
+			<a href="index.html">
+				Home
+			</a>
+		</li>
+  
+  
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">
+				Kids Place
+			</a>
+	
+					<div class="dropdown-content">
+			<a href="coloring.html">
+				Coloring Pages
+			</a>
+	  
+			<a href="craft.html">
+				Crafts
+			</a>
+	  
+					</div>
+		</li>
+  
+		<li>
+			<a href="history.html">
+				History
+			</a>
+		</li>
+	</ul>
+						<br />
+
+					<div class="table">
+							<table border="1" align="center">
+								<tr >
+									<td height="200" width="400" align="center">
+										<img src="light.jpg" height="125" width="125">
+									</td>
+
+									<td height="200" width="400" >
+										<img src="snow.jpg" height="125" width="125">
+									</td>
+
+									<td height="200" width="400" >
+										<img src="food.jpg" height="125" width="125">
+									</td>
+								</tr>
+
+								<tr>
+									<td height="200" width="400">
+										<img src="cmasstory.jpg" height="125" width="125">
+									</td>
+
+									<td height="200" width="400" >
+										<img src="pug.jpg" height="125" width="125">
+									</td>
+
+									<td height="200" width="400" >
+										<img src="cmas.jpg" height="125" width="125">
+									</td>
+								</tr>
+
+								<tr >
+									<td height="200" width="400">
+										<img src="gingerbrd.jpg" height="125" width="125">
+									</td>
+
+									<td height="200" width="400">
+										<img src="beyonce.jpg" height="125" width="125">
+									</td>
+
+									<td height="200" width="400" >
+										<img src="initial.jpg" height="125" width="125">
+									</td>
+								</tr>
+							</table>
+					</div>
+
+					<div class="form">
+											<form name="Form">
+												<h1>
+				Place your order:
+												</h1>
+
+													<p>
+
+												<h4>
+				Step 1: Fill in the following required information:
+												</h4>
+
+														<font face="Courier New">
+				Name: &nbsp;&nbsp;&nbsp;
+															<input name="customer" size="40" type="text">
+						<br />
+
+				Address:
+															<input name="address" size="40" type="text">
+						<br />
+
+				City: &nbsp;&nbsp;&nbsp;
+															<input name="city" size="10" type="text">
+
+				State:
+															<input name="state" size="2" type="TEXT">
+
+				Zip:
+															<input name="zip" size="5" type="text">
+						<br />
+
+				Shirt Wanted: 
+															<input name="phone" size="20" type="text">
+						<br />
+														</font>
+													</p>
+
+													<p>
+												<h4>
+				Step 2: Select the size you wear:
+												</h4>
+
+														<font face="Courier New">
+															<input name="sizes" type="radio">
+				Small
+
+															<input name="sizes" type="radio">
+				Medium
+
+															<input name="sizes" type="radio">
+				Large
+						<br />
+														</font>
+													</p>
+															<input type="button" value="Submit Order" onClick="doSubmit()">
+															<input type="button" value="Clear Entries" onClick="doClear()">
+											</form>
+					</div>
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title> Morgan Thomason </title>
+			<!--
+			File Name: index.html
+			Date: 10/25/16
+			Author: Morgan Thomason
+			-->
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles.css">
+			<script>
+				var imgArray = new Array(4);
+				var index = 0;
+
+				function doBack()
+				{
+					if (index > 0)
+					{
+					index--;
+					document.slideshow.src = imgArray[index].src;
+					}
+					return;
+				}
+
+				function doNext()
+				{
+					if (index < 7)
+					{
+					index++;
+					document.slideshow.src = imgArray[index].src;
+					}
+					return;
+				}
+
+				function startup()
+				{
+					imgArray[0] = new Image;
+					imgArray[0].src = "PW Pics/blue.jpg";
+					imgArray[1] = new Image;
+					imgArray[1].src = "PW Pics/austrailian.jpg";
+					imgArray[2] = new Image;
+					imgArray[2].src = "PW Pics/german.jpg";
+					imgArray[3] = new Image;
+					imgArray[3].src = "PW Pics/golden.jpg";
+					imgArray[4] = new Image;
+					imgArray[4].src = "PW Pics/pomsky.jpg";
+					imgArray[5] = new Image;
+					imgArray[5].src = "PW Pics/poo.jpg";
+					imgArray[6] = new Image;
+					imgArray[6].src = "PW Pics/shih.jpg";
+					imgArray[7] = new Image;
+					imgArray[7].src = "PW Pics/st.jpg";
+					select();
+					return;
+				}
+			</script>
+			<script>
+				function doClear()
+				{
+					document.VisitForm.customer.value = "";
+					document.VisitForm.address.value = "";
+					document.VisitForm.city.value = "";
+					document.VisitForm.state.value = "";
+					document.VisitForm.zip.value = "";
+					document.VisitForm.phone.value = "";
+					return;
+				}
+	
+				function doSubmit()
+				{
+					alert("Your information has been submitted.");
+					return;
+				}
+			</script>
+	</head>
+	
+	<body onLoad="startup()"> 
+	<script>
+		alert("Caution: This webpage contains personal information about Morgan Thomason!");
+	</script> 
+		<h1> The Life of Morgan Thomason </h1> 
+			<nav>  
+				<button> <h3> <a href="index.html"> Home </a> </h3> </button> 
+				<button> <h3> <a href="family.html"> Family </a> </h3> </button>
+				<button> <h3> <a href="pets.html"> Pets </a> </h3> </button>
+				<button> <h3> <a href="career.html"> Career </a> </h3> </button> 
+			</nav>
+				
+				<hr />
+					
+					<h2> All About Me! </h2>
+					
+				<div id="intro">
+					<p> <ul> 
+						<li> My name is Morgan Leigh Thomason. </li>
+						<li> I am  17 years old. </li>
+						<li> I live in Scottsville, Kentucky. </li>
+						<li> I am the daughter of Chris Thomason and Stephanie Lutterman. </li>
+						<li> I was born on March 28th of 1999. </li>
+						<li> I have two half siblings: Korie and Seth. </li>
+						<li> My best friend is Kalee. </li>
+						<li> I plan to attend the University of Kentucky in the fall of 2017. </li>
+						<li> I will be in the College of Arts and Sciences completing a Biology major with a Pre-Physical Therapy focus. </li>
+						<li> I like dogs. </li>
+						<li> <strong> I hate Dale. </strong> </li>
+						<li> I love Grey's Anatomy and Scandal. </li>
+					</ul></p> 
+				</div>	
+				
+					<br />
+						<center> <video width="500" height="500" controls preload="auto">
+							<source src="PW Pics/Morgan T.mp4" type="video/mp4">
+						</video> </center>
+					<br />
+				<center> 
+					<img height="400" width="300" src="PW Pics/dale.jpg"> <br />
+				<center> 
+						<p>
+						The picture above is a funny picture of my ex and I on prom night. I really like this picture of me. Sadly, he's still in it! Maybe when we get to photoshop I'll learn to crop him out better. 
+						</p>
+					</center>
+					<img height="400" width="500" src="PW Pics/Morgan.jpeg"> <br />
+					<img height="400" width="300" src="PW Pics/kaleecrop.jpg"> 
+					<img height="400" width="300" src="PW Pics/silas.jpeg"> <br />
+					<img height="400" width="300" src="PW Pics/kalee2.jpeg">
+					<img height="300" width="400" src="PW Pics/peace.jpeg">
+					<img height="400" width="300" src="PW Pics/silas2.jpeg">
+						<center> <p>
+							<img name="slideshow" src="">
+						</p>
+						<p>
+							<a href="javascript:doBack()"> Back </a>
+							&nbsp;&nbsp;&nbsp;
+							<a href="javascript:doNext()"> Next </a>
+						</p> </center>
+					<center>
+						<p>
+						The pictures above are of some of my favorite people in my life: my best friend, puppies, and my absolutely precious baby cousin! 
+						</p>
+					</center>
+				</center>
+					
+					<hr />
+	<form name="VisitForm">
+		<p>
+			<h4>Enter your name, address, and phone number: </h4>
+			<font face="Courier New">
+				Name: &nbsp;&nbsp;&nbsp;<input name="customer" size="50" type="text"> <br />
+				Address: <input name="address" size="50" type="text"> <br />
+				City: &nbsp;&nbsp;&nbsp;<input name="city" size="15" type="text">
+				State: <input name="state" size="2" type="TEXT">
+				Zip: <input name="zip" size="5" type="text"> <br />
+				Phone: &nbsp;&nbsp; <input name="phone" size="50" type="text"> <br />
+			</font>
+		</p>		
+		<input type="button" value="Submit Order" onClick="doSubmit()">
+		<input type="button" value="Clear Entries" onclick="doClear()">
+	</form>
+					<footer>
+						<a href="http://www.instagram.com"> Instagram </a> 
+						<a href="http://www.facebook.com"> Facebook </a> 
+						<a href="http://www.twitter.com"> Twitter </a> 
+						<a href="mailto:morgan.thomason@stu.allen.kyschools.us"> Email </a> <br />
+						<a href="#Top"> Back to Top! </a> <br />
+							<marquee behavior="scroll" direction="left"> Morgan Thomason 2016 ©  </marquee>
+					</footer>
+					
+	</body>
+</html>

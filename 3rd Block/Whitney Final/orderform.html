@@ -1,0 +1,234 @@
+<!doctype html>
+	<html lang="en">
+		<head>
+		
+			<center><b><title>Gift Order Form</title></b></center>
+			
+			<h1><center>
+				
+			<span data-text="G"></span>
+			<span data-text="I"></span>
+			<span data-text="F"></span>
+			<span data-text="T"></span>
+				<br>
+			<span data-text="G"></span>
+			<span data-text="I"></span>
+			<span data-text="V"></span>
+			<span data-text="I"></span>
+			<span data-text="N"></span>
+			<span data-text="G"></span>
+				<br>
+			<span data-text="O"></span>
+			<span data-text="R"></span>
+			<span data-text="D"></span>
+			<span data-text="E"></span>
+			<span data-text="R"></span>
+				<br>
+			<span data-text="F"></span>
+			<span data-text="O"></span>
+			<span data-text="R"></span>
+			<span data-text="M"></span>
+				<body background ="background5.jpeg">
+					<div class="cursors">
+						<link rel="stylesheet" href="styles.css">
+	<center>
+		<font color="gold">
+		There are even more and interestings facts with our monthly magazine.
+		It is only $14.99 for a 6 month period and $24.99 for a 12 month period.
+		if you become a member you get get a free calender every december.We also sell gift baskets of different types of meat and cheese.
+There are different sizes of them ,large,medium,small, Prices vary from $45 to $20. They sell all year round and makes a great gift.We dont just sell those we also sell costomized stocking kit and ordnament kits.The stockings are $15 to $5 and the ordnaments are from $10 to $3.  
+	<img src="stockingkit.jpeg" width="300" height="200">
+	<img src="meatbasket.jpeg" width="300" height="200">
+		</font>
+	</center>
+<br>
+			
+			<center>
+				<script>
+				function doClear()
+					{
+						document.PizzaForm.customer.value = "";
+							document.PizzaForm.address.value = "";
+								document.PizzaForm.city.value = "";
+									document.PizzaForm.state.value = "";
+										document.PizzaForm.zip.value = "";
+											document.PizzaForm.phone.value = "";
+											
+											document.PizzaForm.sizes[0].checked = false;
+										document.PizzaForm.sizes[1].checked = false;
+									document.PizzaForm.sizes[2].checked = false;
+									
+								document.PizzaForm.toppings[0].checked = false;
+									document.PizzaForm.toppings[1].checked = false;
+										document.PizzaForm.toppings[2].checked = false;
+											document.PizzaForm.toppings[3].checked = false;
+												document.PizzaForm.toppings[4].checked = false;
+													document.PizzaForm.toppings[5].checked = false;
+														return;
+						}
+						
+				function doSubmit()
+					{
+						if (validateText() == false)
+						{
+							alert("Required data missing in Step 1");
+								return;
+						}
+							if (validateRadio() == false)
+							{
+								alert("Reqiured data missing in Step2");
+								return;
+							}
+
+						alert("Your order has been submitted.");
+							return;
+					}
+					
+					function validateText()
+					{
+						var customer = document.PizzaForm.customer.value;
+							if (customer.length == 0) return false;
+						var address = document.PizzaForm.address.value;
+							if (address.length == 0) return false;
+						var city = document.PizzaForm.city.value;
+							if (city.length == 0) return false;
+						var phone = document.PizzaForm.phone.value;
+							if (phone.length == 0) return false;
+								return true;
+								
+						}
+						
+						function validateRadio()
+						{
+							if (document.PizzaForm.sizes[0].checked) return true;
+							if (document.PizzaForm.sizes[1].checked) return true;
+							if (document.PizzaForm.sizes[2].checked) return true;
+								return false;
+
+						}
+		
+			</script>
+		</head>	
+			<font color="white">
+				<body>
+				<form name="PizzaForm">
+				<h1>Christmas Order Form</h1>
+					<p>
+					<h4>Step 1: Enter the Following Needs:</h4>
+						<font face="Courier New">
+							Name: &nbsp;&nbsp;<input name="customer" size="50" type="text"><br>
+								Address: <input name="address" size="50" type="text">
+								<br>
+									City: &nbsp;&nbsp;&nbsp; <input name="city" size="50" type="text"><br>
+										State: <input name="state" size="50" type="TEXT">
+										<br>
+											Zip: <input name="zip" size="50" type="text">
+											<br>
+												Phone: &nbsp;&nbsp;<input name="phone" size="50" type="text"><br>
+						</font>
+					</p>
+					<p>
+						<h4>Step 2:Select The time of your desired date.</h4>
+							<select>
+								<option value="January -">January - </option>
+							<option value="February -">February - </option>
+							<option value="March -">March - </option>
+							<option value="April -">April -</option>
+							<option value="May - ">May - </option>
+							<option value="June -">June -</option>
+							<option value="July -">July - </option>
+							<option value="August -">August -</option>
+							<option value="September -">September - </option>
+							<option value="October -">October - </option>
+							<option value="November -">November - </option>
+								<option value="December-">December-</option>
+							</select>
+							
+								<select>
+									<option value="December-">1</option>
+									<option value="December-">2</option>
+									<option value="December-">3</option>
+									<option value="December-">4</option>
+									<option value="December-">5</option>
+									<option value="December-">6</option>
+									<option value="December-">7</option>
+									<option value="December-">8</option>
+									<option value="December-">9</option>
+									<option value="December-">10</option>
+									<option value="December-">11</option>
+									<option value="December-">12</option>
+									<option value="December-">13</option>
+									<option value="December-">14</option>
+									<option value="December-">15</option>
+									<option value="December-">16</option>
+									<option value="December-">17</option>
+									<option value="December-">18</option>
+									<option value="December-">19</option>
+									<option value="December-">20</option>
+									<option value="December-">21</option>
+									<option value="December-">22</option>
+									<option value="December-">23</option>
+									<option value="December-">24</option>
+									<option value="December-">25</option>
+									<option value="December-">26</option>
+									<option value="December-">27</option>
+									<option value="December-">28</option>
+									<option value="December-">29</option>
+									<option value="December-">30</option>
+									<option value="December-">31</option>
+								</select>
+						
+	
+			</p>
+			<form>
+				<p>
+					<h4> Step 3: Select the size of your Gift Basket of Meat and Cheese:</h4>
+							<font face="Courier New">
+								<input name="toppings" type="checkbox">Small=$20
+									<input name="toppings" type="checkbox">Medium=$30
+										<input name="toppings" type="checkbox">Large=$45
+							<br>
+							<h4> Step 4: Customized stocking kit :</h4>
+								<font face="Courier New">
+									<input name="toppings" type="checkbox">1=$5
+										<input name="toppings" type="checkbox">2=$7
+											<input name="toppings" type="checkbox">3=$10
+												<input name="toppings" type="checkbox">4=$15
+					<br>
+						<h4> Step 4: Customized Ordaments kit :</h4>
+							<font face="Courier New">
+								<input name="toppings" type="checkbox">1 kits=$5
+									<input name="toppings" type="checkbox">2 kits=$7
+										<input name="toppings" type="checkbox">3 kits=$10
+											<input name="toppings" type="checkbox">4 kits=$15
+							<br>
+								<h4> Step 4: Customized Ordaments kit :</h4>
+								<font face="Courier New">
+								<input name="toppings" type="checkbox">6 month period =$14.99
+								<input name="toppings" type="checkbox">12 month period =$24.99
+							</font>
+					</p>
+						<form action="/" method="post">
+							<button>Submit</button>
+								<form action="/" method="post">
+									<button type="reset">Reset</button>
+					
+					</form>
+			
+				</div>
+			</center>
+		</body>	
+	</html>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			

@@ -1,0 +1,45 @@
+p {
+	margin-right: 150px;
+	margin-left: 150px;
+	color: lightgrey
+}
+			
+h2 {
+	margin-right: 100px;
+	margin-left: 100px;
+	color: lightgrey	
+}
+			
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	text-align:center; 
+	position: relative;
+}
+
+li {
+	float: left;
+	text-align: center;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+	text-decoration: underline;
+}
+body { 
+	background: url(images/bg Image.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}

@@ -1,0 +1,30 @@
+/* 
+	Personal Web Site
+	Filename: styles.css
+	
+	Author: Seth Latimer
+	Date: 11-14-16
+*/
+	
+
+	p {
+		font-size: 300%;
+		text-align: center;
+	}
+	
+	.link {
+		color: white;
+	}
+	
+	.me {
+		font-size: 140%;
+	}
+	
+	h1 {
+		text-align: center;
+		font-size: 190%;
+	}
+	
+	.title {
+		color: white;
+	}

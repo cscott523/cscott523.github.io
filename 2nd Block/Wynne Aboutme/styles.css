@@ -1,0 +1,49 @@
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #38a9d6;
+	float: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(#active) {
+    background-color:  #38d699;
+}
+
+.active {
+    background-color: #878787;
+}
+
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+
+      width:540px;
+      height:360px;
+      margin: auto;
+  }
+  
+  .body {
+	  background-color: #38d6ce;
+  }
+  
+.ul {
+    background-color: #ffffff;
+    width: 410px;
+    border: 25px solid #878787;
+    padding: 25px;
+    margin: auto;
+	box-align: center;
+	
+}
+
+

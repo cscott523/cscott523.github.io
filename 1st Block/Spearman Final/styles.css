@@ -1,0 +1,38 @@
+h1 {
+   text-align: center;
+   color: red;
+}
+
+p {
+   text-align: center;
+   color: white;
+   font-size: 130%
+}
+
+h2 {
+	 text-align: center;
+	 color: red;
+	 font-size: 150%
+}
+
+ol {
+	text-align: center;
+	 color: white;
+	 font-size: 130%;
+	
+}
+
+table {
+	color: red;
+	background-color: white;
+	 font-size: 130%;
+}
+
+video {
+	text-align: center;
+}
+.banner {
+position: absolute;
+top: 25%;
+right: 50%;
+}

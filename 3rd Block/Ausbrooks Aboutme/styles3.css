@@ -1,0 +1,147 @@
+/* 
+
+   About Me
+   Filename: styles.css
+
+   Author: Zack Ausbrooks 
+   Date: 11/11/16
+
+ */
+ /* reset styles */ 
+ article, body, div, footer, header, h1, h2, p  { 
+	border: 0; 
+	padding: 0; 
+	margin: 0;
+ }
+ 
+ 
+ 
+/* body and page container */
+.container {
+   max-width: 640px;
+   margin: 0 auto;
+   background-color: beige;
+}
+
+
+
+/* headings */
+header {
+   background-color: darkgreen;
+}
+
+
+
+hr {
+   color: #20B784;
+   text-align: center;
+   background-color: black;
+}
+
+
+
+h1 {
+   padding: 0.4em;
+   color: #280353;
+   background-color: #d0b240;
+   text-align: center;
+}
+
+
+
+h2    {
+	padding: 0.4em 0.6em;
+}
+
+
+
+h3    {
+    padding: 0.4em;
+    color: #280353;
+    background-color: #d0b240;
+    text-align: center;
+	
+}
+/* main content */
+
+article {
+	width: 70%;
+	float: right;
+}
+
+
+
+article p {
+	padding: 0 1em 1em;
+}
+
+
+
+/* sidebar */
+aside {
+	width: 30%;
+	padding: 1em 0;
+   background-color: goldenrod;
+}
+
+
+
+aside p {
+	padding: 0.4em 0;
+	margin: 0 0.6em;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
+
+
+/* footer section */
+footer {
+   padding: 0.6em;
+   color: #20B784;
+   background-color: black;
+   text-align: center;
+   clear: right;
+}
+
+
+
+footer p {
+	margin: 0.4em;
+}
+
+
+
+footer p.accent {
+	color: goldenrod;
+}
+
+li {
+	list-style:square;
+	color: #280353
+}
+
+p {
+	color: #280353
+}
+
+navbar-custom{
+    color: "#280353"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

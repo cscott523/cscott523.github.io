@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Personal Website Project</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style>
+			.carousel-inner > .item > img,
+			.carousel-inner > .item > a > img {
+				width: 50
+				%;
+				margin: auto;
+			}
+	</style>
+	</head>
+	
+	<body bgcolor="grey">
+		<div id="wrapper">
+			<div id="header">
+				<img id="header" src="images\banner.jpg" />
+				<div id="navbar">
+					<ul>
+						<li><a class="active" href="index.html">Home</a></li>
+						<li><a href="favorite.html">Favorite Movies</a></li>
+						<li><a href="hobby.html">Hobbies</a></li>
+						<li><a href="career.html">Future Career</a></li>
+						<li><a href="draw.html">Game</a></li>
+					</ul>
+				</div>
+			</div>
+			<hr />
+			
+			<div class="container">
+				<h1>Favorite Movies</h1>
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+					  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					  <li data-target="#myCarousel" data-slide-to="1"></li>
+					  <li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+					  <div class="item active">
+						<img src="images\jobs.jpg" alt="Jobs" width="519" height="750">
+						<div class="carousel-caption">
+							<h3>Jobs</h3>
+							<p>
+								College dropout Steve Jobs (Ashton Kutcher), together with his friend, technical whiz-kid Steve Wozniak (Josh Gad), 
+								sparks a revolution in home computers with the invention of the Apple 1 in 1976. Built in the garage of Jobs' parents, the device -- 
+								and the subsequent formation of Apple Inc. -- have changed the world for all time. Though he is viewed as a visionary, Jobs' tenure as 
+								Apple's leader is a rocky one, leading to his eventual ouster from the company he co-founded.
+							</p>
+						</div>
+					  </div>
+
+					  <div class="item">
+						<img src="images\cell.jpg" alt="Cells" width="519" height="750">
+						<div class="carousel-caption">
+							<h3>Cells</h3>
+							<p>
+								A graphic novelist (John Cusack) begins a desperate search for his estranged 
+								wife (Clark Sarullo) and son (Ethan Andrew Casto) after a mysterious cellphone signal 
+								transforms New Englanders into savage killers.
+							</p>
+						</div>
+					  </div>
+					
+					  <div class="item">
+						<img src="images\capt.jpg" alt="Captain America: Civil War" width="519" height="750">
+						<div class="carousel-caption">
+							<h3>Captain America: Civil War</h3>
+							<p>
+								Political pressure mounts to install a system of accountability when the actions of the Avengers lead to collateral damage.
+								The new status quo deeply divides members of the team. Captain America (Chris Evans) believes superheroes should remain free to 
+								defend humanity without government interference. Iron Man (Robert Downey Jr.) sharply disagrees and supports oversight. As the debate escalates 
+								into an all-out feud, Black Widow (Scarlett Johansson) and Hawkeye (Jeremy Renner) must pick a side.
+							</p>
+						</div>
+					  </div>
+
+					<!-- Left and right controls -->
+					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					  <span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					  <span class="sr-only">Next</span>
+					</a>
+			  </div>
+			</div>
+		</div>
+	</body>
+	
+</html>

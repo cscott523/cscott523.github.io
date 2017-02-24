@@ -1,0 +1,48 @@
+/* 
+   Final 
+   Filename: styles.css
+
+   Author: Kenneth Macha   
+   Date: 12/15/16     
+   HTML5 and CSS3 Illustrated Unit D, Lessons
+ */
+ /* reset styles*/
+ article, body, div, footer, header, h1, h2, p {
+	 border: 0;
+	 padding: 0;
+	 margin: 0;
+ }
+
+/* body and page container */
+.container {
+   max-width: 640px;
+   background-color: beige;
+}
+
+/* headings */
+header {
+   background-color: darkgreen;
+}
+h1 {
+   color: white;
+   text-align: center;
+}
+
+/* sidebar */
+aside p {
+	border-bottom:1px solid black;
+	border-top: 1px solid black;
+}
+aside {
+   background-color: goldenrod;
+}
+
+/* footer section */
+footer {
+   color: white;
+   background-color: darkgreen;
+   text-align: center;
+}
+footer p.accent {
+   color: goldenrod;
+}

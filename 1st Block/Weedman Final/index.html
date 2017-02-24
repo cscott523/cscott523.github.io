@@ -1,0 +1,116 @@
+<!doctype html>
+
+<head>
+
+
+<!--
+author:julian weedman
+date:12/13/16
+-->
+<title>christmas store</title>
+ 
+	<script>
+	   
+	var imgArray = new Array(4);
+	
+var index = 0;
+   
+   function cycle()
+   
+   {
+   
+      document.banner.src = ImgArray[index].src;
+	     
+		 index++;
+		    if (index > 3)
+	     {
+		 
+	index = 0;
+	
+}
+
+setTimeout("cycle()", 2000);
+  return;
+     
+	 }
+	 
+	 function startup()
+	 
+	 {
+	    imgArray[0] = new image;
+		imgArray[0].src = "lions.gif";
+		   imgArray[1] = new image;
+		   imgArray[1].src = "tigers.gif";
+		   imgArray[2] = new image;
+		   imgArray[2].src = "bears.gif";
+		   imgArray[3] = new image;
+		   imgArray[3].src = "ohmy.gif";
+		      
+			  cycle();
+			  
+		   return;
+		   
+		}
+		
+</script>
+
+
+   <body onLoad="startup()">
+   
+      <div align="center">
+	     
+		 <img name="banner" src="banner.jpg" width="48">
+	  </div>  
+<table border="4" width=100%>
+		  
+		     <tr>
+			 		 <td align="center"> <a href="index.html">Home</a> </td>
+		  <td align="center"> <a href="page1.html">Inside Your Mall</a> </td>
+		  <td align="center"> <a href="page2.html">Dreams</a> </td>
+		     <td align="center"> <a href="page3.html">Movies for the Season</a> </td>
+		        <td align="center"> <a href="page4.html">Wrappings</a> </td>
+		           <td align="center"> <a href="page5.html">Special Event</a> </td>
+		   </tr>
+		   </table>
+
+<body background="christmas.jpg">
+<link rel="stylesheet" href="styles.css">
+
+
+<p align="middle">Welcome to The Christmas Dream!</p>
+
+
+<p align="middle">This store can make your dreams come true this Christmas
+<br />
+<img src="mall.jpg"align="middle">
+<p align="middle"> Come to your local mall to see if your Christmas store has opened, you can buy most of your gifts here. Its really pretty and your kids wil have a blast with all the toys there!
+<p> I need you to see that this christmas seasn is going to be really long we need your help getting through it! so on your way to or from the mall stop by your christmas store and see for your self how pretty it really is!
+
+
+
+
+  <div style="background-image: url(http://christmaswebmaster.com/images/santa-countdown.png); height:197px; width:275px; background-repeat: no-repeat;
+  background-size: 275px 197px;"><div style="padding-left:130px; font-size:18px; padding-right: 10px; padding-top:65px; text-align:center;">
+<script language="javascript" type="text/javascript">
+today = new Date();
+BigDay = new Date("December 25, 2014")
+msPerDay = 24 * 60 * 60 * 1000 ;
+timeLeft = (BigDay.getTime() - today.getTime());
+e_daysLeft = timeLeft / msPerDay;
+daysLeft = Math.floor(e_daysLeft);
+e_hrsLeft = (e_daysLeft - daysLeft)*24;
+hrsLeft = Math.floor(e_hrsLeft);
+minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);
+document.write( "There's only "+9+" days, "+13+" hours and "+11+" minutes left until Christmas!");
+</script>
+</div></div>
+  
+
+</div>
+
+  
+</head>
+
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+/* About Me Style Sheet
+	Filename: styles.css
+	Author: Morgan Thomason
+	Date: 11/3/2016 
+*/
+
+#intro {
+	background-color: gray;
+	margin: 200px auto;
+	padding: 5px;
+	font-size: 1.5em;
+	line-height: 2em;
+	width: 750px;
+}
+
+#career {
+	background-color: gray;
+	margin: 200px auto;
+	padding: 5px;
+	width: 750px;
+	line-height: 2em;
+	font-size: 1.5em;
+}
+
+#fam {
+	background-color:gray;
+	margin: 200px auto;
+	padding:5px;
+	width:750px;
+	line-height: 2em;
+	font-size: 1.5em;
+}
+
+body {
+	background-color: #5253a2;
+	color: #faced8;
+	font-family: arial;
+	}
+
+h1 {
+	text-align: center;
+	font-family: broadway;
+	text-decoration: overline;
+	}
+
+h2 {
+	text-align: center;
+	font-family: dotum;
+	}
+h3 {
+	text-align: center;
+	font-family: dotum;
+}
+nav {
+	text-align: center;
+	}
+	
+button {
+	font-family: gulim;
+	}
+
+p {
+	text-align: left;
+	text-transform: none;
+	}
+	
+table {
+	background-color: gray;
+	border: 2 px;
+	text-align: center;
+	color: #faced8;
+	float: middle;
+	font-size: 1.5em;
+	width: 1000px;
+	}
+
+footer {
+	text-align:center; 
+}
+

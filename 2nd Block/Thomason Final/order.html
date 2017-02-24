@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title> All Things Christmas: Tree Orders </title>
+			<!--
+			File Name: order.html
+			Date: 12/12/16
+			Author: Morgan Thomason
+			-->
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles.css">
+						<script>
+	
+							function doClear()
+							{
+								document.OrderForm.customer.value = "";
+								document.OrderForm.address.value = "";
+								document.OrderForm.city.value = "";
+								document.OrderForm.state.value = "";
+								document.OrderForm.zip.value = "";
+								document.OrderForm.phone.value = "";
+								
+								document.OrderForm.sizes[0].checked = false;
+								document.OrderForm.sizes[1].checked = false;
+								document.OrderForm.sizes[2].checked = false;
+								document.OrderForm.sizes[3].checked = false;
+								document.OrderForm.sizes[4].checked = false;
+								
+								document.OrderForm.shape[0].checked = false;
+								document.OrderForm.shape[1].checked = false;
+								document.OrderForm.shape[2].checked = false;
+								document.OrderForm.shape[3].checked = false;
+								
+								document.OrderForm.light[0].checked = false;
+								document.OrderForm.light[1].checked = false;
+								document.OrderForm.light[2].checked = false;
+								document.OrderForm.light[3].checked = false;
+								document.OrderForm.light[4].checked = false;
+								document.OrderForm.light[5].checked = false;
+								
+								return;
+							}
+							
+								function doSubmit()
+							{
+								if (validateText() == false)
+								{
+									alert("Required data missing in Step 1");
+								}
+								if (validateRadio() == false)
+								{
+									alert("Required data missing in Step 2, 3, or 4");
+									return;
+								}
+									alert("Your tree order has been submitted.");
+									return;
+							}
+	
+	
+							function validateText()
+							{
+								var customer = document.OrderForm.customer.value;
+								if (customer.length == 0) return false;
+								var address = document.OrderForm.address.value;
+								if (address.length == 0) return false;
+								var city = document.OrderForm.city.value;
+								if (city.length == 0) return false;
+								var phone = document.OrderForm.phone.value;
+								if (phone.length == 0) return false;
+								return true;
+							}
+							
+								function validateRadio()
+							{
+								if (document.OrderForm.sizes[0].checked) return true;
+								if (document.OrderForm.sizes[1].checked) return true;
+								if (document.OrderForm.sizes[2].checked) return true;
+								if (document.OrderForm.sizes[3].checked) return true;
+								if (document.OrderForm.sizes[4].checked) return true;
+								return false;
+							}
+	
+						</script>
+						<script>
+							var imgArray = new Array(6);
+							var index = 0;
+
+							function doBack()
+							{
+								if (index > 0)
+								{
+								index--;
+								document.slideshow.src = imgArray[index].src;
+								}
+								return;
+							}
+
+							function doNext()
+							{
+								if (index < 6)
+								{
+								index++;
+								document.slideshow.src = imgArray[index].src;
+								}
+								return;
+							}
+
+							function startup()
+							{
+								imgArray[0] = new Image;
+								imgArray[0].src = "oh.jpg"
+								imgArray[1] = new Image;
+								imgArray[1].src = "6foot.jpg";
+								imgArray[2] = new Image;
+								imgArray[2].src = "7foot.jpg";
+								imgArray[3] = new Image;
+								imgArray[3].src = "9foot.jpg";
+								imgArray[4] = new Image;
+								imgArray[4].src = "10foot.jpg";
+								imgArray[5] = new Image;
+								imgArray[5].src = "15foot.jpg";
+								select();
+								return;
+								}
+						</script>
+	</head>
+	
+	<body onLoad="startup()">
+		<header class="banner" role="banner">
+			<img src="logo.gif" alt="Banner Image" />
+		</header>
+			<nav class="nav">  
+				<button> <h3> <a href="index.html"> Home </a> </h3> </button>
+				<button> <h3> <a href="songs.html"> Songs </a> </h3> </button>
+				<button> <h3> <a href="movies.html"> Movies </a> </h3> </button> 
+				<button> <h3> <a href="characters.html"> Characters </a> </h3> </button> 
+				<button> <h3> <a href="trees.html"> Tree's Available </a> </h3> </button> 
+			</nav>
+		
+		<div>
+			<h1> Welcome! </h1> 
+
+			<p class="tree">
+				<h3> Don't forget your tree options! </h3> 
+			</p>
+			<p class="tree">
+				<img name="slideshow" height="500" width="100" src="treeheight.jpg">
+			</p>
+			<p class="tree">
+				<a href="javascript:doBack()"> Back </a>
+				&nbsp;&nbsp;&nbsp;
+				<a href="javascript:doNext()"> Next </a>
+			</p> 
+	<form name="OrderForm">
+		<h1> All Things Christmas Tree Order Form</h1>
+		<p>
+			<h4> Step 1: Enter your name, address, and phone number: </h4>
+			<font face="Arial">
+				Name: &nbsp;&nbsp;&nbsp;<input name="customer" size="50" type="text"> <br />
+				Address: <input name="address" size="50" type="text"> <br />
+				City: &nbsp;&nbsp;&nbsp;<input name="city" size="15" type="text">
+				State: <input name="state" size="2" type="TEXT">
+				Zip: <input name="zip" size="5" type="text"> <br />
+				Phone: &nbsp;&nbsp; <input name="phone" size="50" type="text"> <br />
+			</font>
+		</p>
+		<p>
+			<h4> Step 2: Select the size of tree you want: </h4>
+			<font face="Arial">
+				<input name="sizes" type="radio"> 6-6 1/2 Ft. 
+				<input name="sizes" type="radio"> 7-7 1/2 Ft.
+				<input name="sizes" type="radio"> 9 Ft. <br />
+				<input name="sizes" type="radio"> 10-12 Ft. 
+				<input name="sizes" type="radio"> 15-30 Ft.
+			</font>
+		</p>
+		<p>
+			<h4> Step 3: Select the tree shape you want: </h4>
+			<font face="Arial">
+				<input name="shape" type="radio"> Full 
+				<input name="shape" type="radio"> Narrow <br />
+				<input name="shape" type="radio"> Slim 
+				<input name="shape" type="radio"> Flatbacks
+			</font>
+		</p>
+		<p>
+			<h4> Step 4: Select the light type you want: </h4>
+			<font face="Arial">
+				<input name="light" type="radio"> Clear + Color 
+				<input name="light" type="radio"> Clear
+				<input name="light" type="radio"> Multi 
+				<input name="light" type="radio"> LED Clear
+				<input name="light" type="radio"> LED Multi
+				<input name="light" type="radio"> Unlit
+			</font>
+		</p>
+		<input type="button" value="Submit Order" onClick="doSubmit()">
+		<input type="button" value="Clear Entries" onclick="doClear()">
+	</form>
+
+					<footer>
+						<a href="#Top"> Back to Top! </a> <br />
+							<marquee behavior="scroll" direction="left"> Morgan Thomason 2016 ©  </marquee>
+					</footer>
+		</div>
+	</body>
+</html>

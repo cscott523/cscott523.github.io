@@ -1,0 +1,56 @@
+.nav {
+	background-color: #aeeeeee;
+	width: 25%;
+	margin: auto;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.nav li a {
+	text-decoration: none;
+	color: white;
+	padding: 5px 5px 5px 5px;
+}
+
+.nav li a:hover {
+	background-color: #111;
+}
+
+.nav li {
+	list-style-type: none;
+	display: inline;
+}
+
+.nav ul {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: auto;
+	width: 70%;
+	text-align: center;
+}
+
+.content {
+	background-color: #aeeeee;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	width: 50%;
+	margin: auto;
+	border-radius: 25px;
+	text-align: center;
+}
+
+.content > .header {
+	padding-left: 20px;
+}
+
+li {
+	list-style-type: none;
+}
+
+/*
+
+David York
+
+*/

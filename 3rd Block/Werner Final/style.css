@@ -1,0 +1,36 @@
+html { 
+  background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#stretch {
+ position: relative;
+ width: 75%;
+ height: 35%;
+
+}
+h1 {
+	color: lime;
+
+}
+#div1 {
+	color: lime;
+	float: right;
+}
+
+#div2 {
+	position:absolute;
+	float:center;
+}
+#div3 {
+	position:absolute;
+	float:top;
+	
+}
+#div4 {
+	float:left;
+}
+	
+	

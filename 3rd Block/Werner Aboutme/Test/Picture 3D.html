@@ -1,0 +1,86 @@
+<html>
+<head></head>
+<body>
+<link rel="stylesheet" href="style.css">
+<div id="grid" class="main">
+ 
+	<div class="view">
+
+		<div class="view-back">
+			<span data-icon="A">566</span>
+			<span data-icon="B">124</span>
+			<a href="http://www.flickr.com/photos/ag2r/5439506585/in/photostream">→</a>
+		</div>
+
+		<img src="pictures/career-image.jpg" />
+
+	</div>
+
+	<div class="view">
+
+	<!-- ... -->
+
+	</div>
+
+	<!-- ... -->
+	
+</div>
+div class="view">
+
+	<div class="view-back">
+		<!-- ... -->
+	</div>
+	
+	<div class="slice s1" style="background-image: url(images/1.jpg); ">
+		<span class="overlay"></span>
+		
+		<div class="slice s2" style="background-image: url(images/1.jpg); ">
+			<span class="overlay"></span>
+			
+			<div class="slice s3" style="background-image: url(images/1.jpg); ">
+				<span class="overlay"></span>
+				
+				<div class="slice s4" style="background-image: url(images/1.jpg); ">
+					<span class="overlay"></span>
+					
+					<div class="slice s5" style="background-image: url(images/1.jpg); ">
+						<span class="overlay"></span>
+					</div><!-- /s5 -->
+				
+				</div><!-- /s4 -->
+					
+			</div><!-- /s3 -->
+				
+		</div><!-- /s2 -->
+			
+	</div><!-- /s1 -->
+	
+</div><!-- /view -->
+$.fn.hoverfold = function( args ) {
+
+	this.each( function() {
+	
+		$( this ).children( '.view' ).each( function() {
+		
+			var $item 	= $( this ),
+				img		= $item.children( 'img' ).attr( 'src' ),
+				struct	= '<div class="slice s1">';
+					struct	+='<div class="slice s2">';
+						struct	+='<div class="slice s3">';
+							struct	+='<div class="slice s4">';
+								struct	+='<div class="slice s5">';
+								struct	+='</div>';
+							struct	+='</div>';
+						struct	+='</div>';
+					struct	+='</div>';
+				struct	+='</div>';
+				
+			var $struct = $( struct );
+			
+			$item.find( 'img' ).remove().end().append( $struct ).find( 'div.slice' ).css( 'background-image', 'url(' + img + ')' ).prepend( $( '<span class="overlay" ></span>' ) );
+			
+		} );
+		
+	});
+
+};

@@ -1,0 +1,85 @@
+/* Final Style Sheet
+	Filename: styles.css
+	Author: Morgan Thomason
+	Date: 12/12/16
+*/
+
+body {
+	color: red;
+	font-family: arial;
+	color: white;
+	background-image: url("background.jpg");
+	}
+
+.banner {
+	text-align:center;
+	background-color: red;
+}
+.nav {
+	text-align: center;
+	background-color: red;
+}
+
+.tree {
+	text-align: center;
+}
+div {
+	background-color: red;
+}
+ 
+h1 {
+	text-align: center;
+	font-family: aharoni;
+	text-decoration: none;
+	}
+
+h2 {
+	text-align: center;
+	font-family: aharoni;
+	}
+h3 {
+	text-align: left;
+	font-family: aharoni;
+}
+nav {
+	text-align: center;
+	}
+	
+button {
+	font-family: aharoni;
+	}
+
+p {
+	text-align: left;
+	text-transform: none;
+	}
+	
+table {
+	background-color: red;
+	border: 2px solid white;
+	padding: 10px;
+	text-align: left;
+	color: white;
+	float: middle;
+	font-size: 1.5em;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	}
+
+img {
+	display: block;
+	margin: auto;
+	width: 40%;
+}
+
+video {
+	float: middle;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+footer {
+	text-align:center; 
+}

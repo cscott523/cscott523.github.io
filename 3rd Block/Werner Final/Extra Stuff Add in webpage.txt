@@ -1,0 +1,32 @@
+<audio src="/music/good_enough.mp3" autoplay>
+<p>If you are reading this, it is because your browser does not support the audio element.</p>
+</audio>
+------------Change the good_enough to a christmas Music to have background music
+
+
+
+
+
+<iframe frameborder="0" marginheight="0" marginwidth="0" 
+scrolling="no" height="256" width="256"
+src="http://www.christmaswebmaster.com/countdowns/santacount.html">
+</iframe>
+
+This is a Count Down Timer for Christmas 
+
+http://shushi168.com/holiday-background.html
+http://www.schillmania.com/projects/snowstorm/
+
+sources
+
+<table border="2">
+<tr>
+<td> <font color="#000000"> <font size="5"> <a href="index.html"> Home  </a> </font> </td>
+<td> <font color="#000000"> <font size="5"> <a href="career.html"> Career </a> </font> </td>
+<td> <font color="#000000"> <font size="5"> <a href="hobbie.html"> Hobbie </a> </font> </td>
+<td> <font color="#000000"> <font size="5"> <a href="part-time.html"> Part-Time Job </a> </font> </td>
+</tr>
+</table>
+
+
+<center><footer> &copy; Douglas Werner 2016</footer></center>

@@ -1,0 +1,69 @@
+<html>
+
+<head> 
+<title> HTML and JavaScript 7-3 </title>
+
+<script>
+var imgArray = new Array(4);
+var index = 0;
+
+function doBack()
+{
+	if (index > 0)
+	{
+		index--;
+		document.slideshow.src = imgArray[index].src;
+	}
+	return;
+}
+
+function doNext()
+{
+	if (index < 7)
+	{
+		index++;
+		document.slideshow.src = imgArray[index].src;
+	}
+	return;
+}
+
+function startup()
+{
+	imgArray[0] = new Image;
+	imgArray[0].src = "blue.jpg";
+	imgArray[1] = new Image;
+	imgArray[1].src = "austrailian.jpg";
+	imgArray[2] = new Image;
+	imgArray[2].src = "german.jpg";
+	imgArray[3] = new Image;
+	imgArray[3].src = "golden.jpg";
+	imgArray[4] = new Image;
+	imgArray[4].src = "pomsky.jpg";
+	imgArray[5] = new Image;
+	imgArray[5].src = "poo.jpg";
+	imgArray[6] = new Image;
+	imgArray[6].src = "shih.jpg";
+	imgArray[7] = new Image;
+	imgArray[7].src = "st.jpg";
+	select();
+	return;
+}
+</script>
+
+</head>
+
+<body onLoad="startup()">
+	<div align="center">
+	<h2> GreatApplications, Inc.  </h2>
+	<p>
+		<img name="slideshow" src="">
+	</p>
+	<p>
+		<a href="javascript:doBack()"> Back </a>
+		&nbsp;&nbsp;&nbsp;
+		<a href="javascript:doNext()"> Next </a>
+	</p>
+	</div>
+</body>
+
+</html>

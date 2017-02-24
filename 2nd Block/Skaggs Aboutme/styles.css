@@ -1,0 +1,107 @@
+
+
+	/*About Me StyleSheet
+	  File Name: Styles.css
+	  Author: Kalee Skaggs
+	  Date: 11/3/16
+	 */
+			
+			
+			
+			Body {
+				Background-color: 	#7b90ef;
+				Text-align: left;
+				font-family: satisfy, cursive;
+				}
+			footer {text-align:left;
+					}
+			p {color: #c20487;
+			font-family:satisfy, cursive;
+			position: relative;
+				}
+			footer{color: #c20487;
+			font-family:
+				}
+			h1  {
+			background-color: #7b90ef;
+			font-family: Satisfy, cursive;
+			position: relative;
+				}
+		ul{ color: #c20487;
+		font-family: satisfy, cursive;
+		
+				}
+		div{
+			margin: 10;
+			padding: 10;
+			position: relative;
+		}
+	
+img{ 
+	float: center;
+}
+
+
+
+
+
+	
+#intro{
+	padding: 70;
+	margin: 5px auto;
+	background-color: black;
+	float: center;
+	vertical-align: center;
+	font-weight: 850px;
+	text-transform: none;
+	font-size: 2em;
+	width: 850px;
+	
+}
+#head{
+	padding: 900;
+	margin: auto;
+	width: 850px;
+	background-color: #000000;
+	vertical-align: middle;
+	z-index: -1
+}
+#button{
+	margin: 500;
+	width: 30;
+	background-color: #000000;
+	padding: 0.4em 0.6em;
+}
+#table{
+	background-color: black;
+	color: #c20487;
+}
+
+#sports{
+	text-decoration: overline;
+}
+#fam{
+	font-size: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

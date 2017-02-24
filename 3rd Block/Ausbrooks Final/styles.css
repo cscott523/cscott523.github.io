@@ -1,0 +1,119 @@
+/* 
+   Final
+   Filename: styles.css
+
+   Author:   Zack Ausbrooks
+   Date:     11/22/16
+   HTML5 and CSS3 Illustrated Unit D, Lessons
+ */
+ /* reset styles */ 
+  article, body, div, footer, #head, h1, h2, p  { 
+	border: 0; 
+	padding: 0; 
+	margin: 0;
+ }
+ 
+/* body and page container */
+.container {
+   max-width: 640px;
+   margin: 0 auto;
+   background-color: beige;
+   position: relative;
+   top: 6.2em;
+}
+
+/* headings */
+
+#head {
+   background-color: darkgreen;
+   width: 100%;
+   max-width: 640px;
+   position: fixed;
+   /*
+   z-index: -1;
+   */
+}
+   
+
+}
+h1 {
+   padding: 0.4em;
+   color: white;
+   text-align: center;
+}
+h2    {
+	padding: 0.4em 0.6em;
+	Color:#9CBA7F;
+	
+}
+h3	{
+	Color:#ff4c4c;
+}
+p. logo {
+	padding: 0.2em;
+	border: 2px solid beige;
+	color: goldenrod;
+	position: absolute; 
+	top: 2em;
+	left: 2em;
+}
+
+/* main content */
+
+article {
+	width: 70%;
+	float: right;
+	
+}
+article p {
+	padding: 0 1em 1em;
+}
+
+/* sidebar */
+aside {
+	width: 30%;
+	padding: 1em 0;
+   background-color: goldenrod;
+}
+aside p {
+	padding: 0.4em 0;
+	margin: 0 0.6em;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
+/* footer section */
+footer {
+   padding: 0.6em;
+   color: white;
+   background-color:#9CBA7F;
+   text-align: center;
+   clear: right;
+  
+}
+footer p {
+	margin: 0.4em;
+}
+footer p.accent {
+	color: goldenrod;
+}
+
+.box {border:10px solid ;
+border-color:#ff4c4c;}
+.box h2 {background:#9CBA7F;
+	   color:#ff4c4c;
+	   padding:100px;
+	}
+
+table {
+    width: 90%;
+}
+
+tr {
+    height: 45px;
+    text-align: center;
+}
+
+
+
+

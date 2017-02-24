@@ -1,0 +1,67 @@
+/* 
+   Payne Final style sheet 
+   Filename: index.html
+
+   Author:Jacob Payne
+   Date:12/13/16
+   Final
+ */
+
+ /* reset styles */
+ article, body, div, footer, header, h1, h2, p{
+	 border: 0;
+	 padding: 0;
+	 margin: 0;
+ }
+/* body and page container */
+.container {
+   max-width: 640px;
+   margin: 0 auto;
+   background-color: beige;
+   position: relative;
+   top: 6.2em;
+}
+
+/* headings */
+header {
+   /* z-index: -1; */
+   background-color: darkgreen;
+   width: 100%;
+   max-width: 640px;
+   position: fixed;
+
+h1 {
+   padding: 0.4em;
+   color: white;
+   text-align: center;
+}
+h2 {
+	padding: 0.4em 0.6em;
+}
+p.logo {
+	padding: 0.2em;
+    border: 2px solid beige;
+	color: goldenrod;
+	position: absolute;
+	top: 2em;
+	left: 2em;
+}
+/* main content */
+article {
+	width: 70%;
+	float: right;
+}
+article p{
+	padding: 0 1em 1em;
+}
+
+/* sidebar */
+aside{
+   width:30%;	
+   padding: 1em 0;
+   background-color: goldenrod;
+}
+aside p{
+   border-bottom: 1px solid black;
+    border-top: 1px solid black;
+   padding: 0.4em 0;

@@ -1,0 +1,16 @@
+/* 
+	About Me Personal website
+	filename: styles.css
+	
+	Author: Holly Sisco 
+	Date: 12/16/16
+	HTML5 and CSS3 Illustrated Unit D, Lessons
+*/
+/*headings*/
+
+		 Body {
+		 background-image: url("christmas.jpg");
+		 text-align:center;
+		 }
+		 p {text-align:right;
+		 color: blue}

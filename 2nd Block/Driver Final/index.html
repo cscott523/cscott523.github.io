@@ -1,0 +1,132 @@
+<html lang="en">
+
+<head>
+<title>Santas workshop</title>
+
+
+      <link rel="stylesheet" href="style.css">
+
+	  <!-- Luke driver -->
+	  
+<script>	
+
+
+function doClear()
+	{
+		document.PizzaForm.customer.value = "";
+		document.PizzaForm.address.value = "";
+		document.PizzaForm.city.value = "";
+		document.PizzaForm.state.value = "";
+		document.PizzaForm.zip.value = "";
+		document.PizzaForm.phone.value = "";
+
+}
+  
+	  function doSubmit()
+	{
+		if (validateText() == false)
+		{
+			alert("Required data missing in step 1");
+			return;
+		}
+		if (validateText() == false)
+		{
+			alert("Required data missing in step 2");
+			return;
+		}
+		alert("Your pizza order has been submitted.");
+		return;
+	}
+</script>
+</head>
+
+<body>
+
+
+<header>
+
+<h1> Santas workshop </h1>
+
+	<img src="santa2.gif" width="75" height="100"></img>
+
+
+		
+		<button><a href="store.html" class="button">Store</a></button>
+		
+		<button><a href="where.html" class="button">Where is Santa?</a></button>
+
+		<button><a href="message.html" class="button">Message Santa!</a></button>
+			
+		<button><a href="north.html" class="button">The north pole!</a></button>
+			
+
+
+
+</header>
+
+<article>
+
+<p>WELCOME to Santas Workshop on this site you can do more then shop, you can learn and explore the north pole! Along with those
+features we also have a santa radar that you can keep track on him while he prepares for his delivery across the world!</p>
+
+<p>To register your workshop account just fill out the information bellow!</p>
+
+</article>
+
+<p>
+			<h4>Register here!</h4>
+			<font face="Courier New">
+				Name: &nbsp;&nbsp;&nbsp;<input name="customer" size="15" type="text"><br>
+				Address: <input name="address" size="50" type="text"><br>
+				City: &nbsp;&nbsp;&nbsp;<input name="city" size="15" type="text">
+				State: <input name="state" size="2" type="TEXT">
+				Zip: <input name="zip" size="5" type="text"><br>
+				Phone: &nbsp;&nbsp;<input name="phone" size="50" type="text"><br>
+			</font>
+		</p>
+
+		<input type="button" value="Submit Order" onClick="doSubmit()">
+		<input type="button" value="Clear Entries" onClick="doClear()">
+		
+<article>
+
+<p>We will send you order booklets at your reqeust for the next delivery season and you will now be able to directly track 
+your purchases throught out his delivery using the radar on the "where is santa" page!</p>
+
+
+</article>
+
+<article>
+
+<p>Finally all orders and pre-orders will be delivered on the 25th of december 12:00 sharp, so be ready in the morning to 
+open up your long awaited gift!</p>
+
+</article>
+
+<article>
+
+<video width="320" height="240" controls>
+         <source src="videoplayback" type="video/mp4">
+
+</article>		 
+	
+<footer>
+
+<p>We hope you've enojoyed our site!</p>
+
+<a href="http://yoodownload.com/download.php">yoo.com helped with the videos</a>
+
+<a href="w3schools.com">W3 helped with the code</a>
+
+
+</footer>
+	
+		 
+</body>
+
+
+
+
+
+
+</html>

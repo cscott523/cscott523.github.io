@@ -1,0 +1,37 @@
+/*
+
+Title: Christmas
+Author: Dalton Burton
+Date: 12/14/16
+
+*/
+
+table {
+	color: white; 
+	border: red;
+	text-align: center;
+	background-color: green;
+}
+
+footer {
+	background-color: green;
+	color: white;
+}
+
+a {
+	color: white;
+}
+
+.td {
+	background-color: red;
+	color: white;
+}
+
+.sources {
+	text-align: left;
+}
+
+.tradtions {
+	text-align: left;
+}
+

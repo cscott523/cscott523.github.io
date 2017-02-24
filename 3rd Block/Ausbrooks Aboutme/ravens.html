@@ -1,0 +1,201 @@
+<!doc type html>
+
+	<html lang="en"> 
+
+	<head>
+
+<title>Index</title>
+
+	<!--
+		Ravens
+		Author: Zack Ausbrooks
+		Date: 10-27-16
+	</!-->
+	
+	</head>
+
+<center><h1>About Me</h1></center>
+<center><h3>Ravens</h3></center>
+
+<body bgcolor="white" >
+
+<link rel="stylesheet" href="styles3.css">
+
+<center><table border="1">
+
+<tr>
+
+<td align="center"> <a href = "index.html"> Home
+
+<td align="center"> <a href = "baseball.html"> Baseball
+
+<td align="center"> <a href = "Career.html"> Web Developer
+
+<td align="center"> <a href = "Ravens.html"> Ravens
+
+</table></center>
+
+ <A HREF = "http://www.baltimoreravens.com/">Ravens Website</A>
+
+<hr>
+
+<center><table border="10">
+<tr>
+
+		<td rowspan="2"><img width="300" height="300" src="ravens.jpg"></td>
+		<td rowspan="2"><img width="300" height="300" src="ravens2.jpg"></td>
+</tr>
+<tr>
+	
+</tr>
+</table></center>
+<hr>
+<br>
+
+<center><h3> Some of the players</h3></center>
+	<center<ul>
+	<center><li> Joe Flacco
+	<li> Terrance West
+	<li>Steve Smith Sr.
+	
+	<br>
+	<br>
+
+	<p>The Baltimore Ravens are a professional American football team based in Baltimore, Maryland. The Ravens compete in the National Football League as a member of the American Football Conference North division. The team plays its home games at M&T Bank Stadium which is in Owings Mills. <p>
+	<p>I like the ravens because my favorite player, Ray Rice used to play for them and around the time I started liking them they won a Superbowl. Which was 2012.
+
+	
+	
+	
+	
+	
+	<script>
+function doClear()
+{
+	document.PizzaForm.customer.value = "";
+	document.PizzaForm.address.value = "";
+	document.PizzaForm.city.value = "";
+	document.PizzaForm.state.value = "";
+	document.PizzaForm.zip.value = "";
+	document.PizzaForm.phone.value = "";
+	
+	document.PizzaForm.sizes[0].checked = false;
+	document.PizzaForm.sizes[1].checked = false;
+	document.PizzaForm.sizes[2].checked = false;
+	
+	document.PizzaForm.toppings[0].checked = false;
+	document.PizzaForm.toppings[1].checked = false;
+	document.PizzaForm.toppings[2].checked = false;
+	document.PizzaForm.toppings[3].checked = false;
+	document.PizzaForm.toppings[4].checked = false;
+	document.PizzaForm.toppings[5].checked = false;
+	return;
+}
+
+function doSubmit()
+{
+	if (validateText() == false)
+	{
+		alert("Required data missing in Step 1");
+		return;
+	}
+	if (validateRadio() == false)
+	{
+		alert("Required data missing in Step 2");
+		return;
+	}
+	alert("Your pizza order has been submitted.");
+	return;
+}
+
+function validateText()
+{
+	var customer = document.PizzaForm.customer.value;
+	if (customer.length == 0) return false}
+	var address = document.PizzaForm.address.value;
+	if (address.length == 0) return false;
+	var city = document.PizzaForm.city.value;
+	if (city.length == 0) return false;
+	var phone = document.PizzaForm.phone.value;
+	if (phone.length == 0) return false;
+	return true;
+}
+
+function validateRadio()
+{
+	if (document.PizzaForm.sizes[0].checked) return true;
+	if (document.PizzaForm.sizes[1].checked) return true;
+	if (document.PizzaForm.sizes[2].checked) return true;
+	return false;
+}
+</script>
+</head>
+
+<body>
+	<form name="PizzaForm">
+		<h1>What is your favorite team?</h1>
+		<p>
+			
+			<font face="Courier New">
+
+			</font>
+		</p>
+		<p>
+			<h4>Out of these three teams which do you like best:</h4>
+			<font face="Courier New">
+				<input name="sizes" type="radio">Ravens 
+				<input name="sizes" type="radio">Broncos
+				<input name="sizes" type="radio">Seahawks<br>
+			</font>
+		</p>
+		<p>
+		
+		</p>
+		<input type="button" value="Submit Order" onClick="doSubmit()">
+		<input type="button" value="Clear Entries" onClick="doClear()">
+	</form>
+</body>
+
+</html>
+		
+				
+				
+			
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</body>
+</html>

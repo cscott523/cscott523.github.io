@@ -1,0 +1,32 @@
+
+/* 
+  All about me project
+   Filename: styles.css
+
+   Author: Cody Clark  
+   Date: 11/15/2016    
+   */
+
+
+
+Body {
+	background-image: url("plaid tile.jpg");
+     }
+p 	{
+	 text-align:center;
+	 color: White;
+	 text-color: Red;
+	 }
+	 a {
+     border-bottom: 1px solid #000;
+     padding-bottom: 2px;
+}
+a {
+     color: #ffffff;
+ }
+	h1 {
+		text-align: center;
+	}
+	h3 {
+		color: Red
+	}

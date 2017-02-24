@@ -1,0 +1,143 @@
+<html>
+<!--Leah Jent
+2nd Block 
+Final-->
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<style>
+
+</style>
+<title>
+Home Page
+</title>
+
+</head>
+
+<body>
+<center><img src="Christmas Corner.png">	</center>
+<center>
+
+         <table bgcolor="white" border="5">
+
+         <tr>
+
+         <td> <font color="black">  <font size="5"> <a href="index.html"> Home </a> </font> </td>
+
+         <td> <font color="black">  <font size="5"> <a href="Songs.html">  Christmas Songs </a> </font> </td>
+
+         <td> <font color="black">  <font size="5"> <a href="History.html">  History </a> </font> </td>
+
+         <td> <font color="black">  <font size="5"> <a href="Movies.html">  Christmas Movies </a> </font> </td> 
+		 
+		 <td> <font color="black">  <font size="5"> <a href="Traditions.html">  Christmas Traditions </a> </font> </td> 
+		 
+		  <td> <font color="black">  <font size="5"> <a href="Inventory.html">  Inventory </a> </font> </td> 
+
+
+         </font>
+
+         </tr>
+
+         </table>
+
+         </center>
+ 
+		 <center>
+		 <script type="text/javascript">
+tday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+
+function GetClock(){
+var d=new Date();
+var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getYear();
+if(nyear<1000) nyear+=1900;
+var nhour=d.getHours(),nmin=d.getMinutes(),ap;
+if(nhour==0){ap=" AM";nhour=12;}
+else if(nhour<12){ap=" AM";}
+else if(nhour==12){ap=" PM";}
+else if(nhour>12){ap=" PM";nhour-=12;}
+
+if(nmin<=9) nmin="0"+nmin;
+
+document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+ap+"";
+}
+
+window.onload=function(){
+GetClock();
+setInterval(GetClock,1000);
+}
+</script>
+<div id="clockbox" style="font:22pt Arial; color:#CC0000;"></div>
+</center>
+
+ <SCRIPT SRC="http://www.mrsitetemplates.com/sukhsnow.js"></SCRIPT>
+ <center>
+ <iframe src="http://free.timeanddate.com/countdown/i5i5opuj/n2508/cf12/cm0/cu4/ct0/cs0/ca0/cr0/ss0/cac000/cpc000/pcfff/tcfff/fs100/szw320/szh135/tatChristmas%20Countdown/tac000/tptTime%20since%20Event%20started%20in/tpc000/mac000/mpc000/iso2016-12-25T00:00:00" allowTransparency="true" frameborder="0" width="193" height="69"></iframe>
+ </center>
+
+		
+
+<br>
+<br>
+<br>
+<center><table border="20" cellpadding="10" cellspacing="3" border color="blue" bgcolor="white">
+<tr>
+<td> Author</td>
+<td> Designer</td>
+<td> Date </td>
+<td> Credits</td>
+</tr>
+<tr>
+<td> Leah Jent</td>
+<td>Leah Jent</td>
+<td> 12/14/16 </td>
+<td>http://christmasimagesandwallpaper.blogspot.com/2011/07/christmas-scenes-wallpaperschristmas_16.html</td>
+</tr>
+<tr>
+<td>Leah Jent</td>
+<td> Leah Jent</td>
+<td> 12/15/16</td>
+<td> http://www.whychristmas.com/cultures/ </td>
+</tr>
+<tr>
+<td>Leah Jent</td>
+<td>Leah Jent</td>
+<td>12/16/16</td>
+<td>http://www.amc.com/movie-guide/christmas-movies</td>
+</tr>
+<tr>
+<td>Leah Jent</td>
+<td>Leah Jent</td>
+<td>12/16/16</td>
+<td>http://www.treetopia.com/Traditional-Artificial-Christmas-Trees-s/21.htm</td>
+</tr>
+
+</table></center>
+
+<br>
+<br>
+<br>
+
+</body>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<center>
+Leah Jent 2016 &copy
+</center>
+</html>

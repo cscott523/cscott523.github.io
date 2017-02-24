@@ -1,0 +1,127 @@
+<!doc type html>
+
+	<html lang="en"> 
+
+	<head>
+
+<title>Index</title>
+
+	<!--
+		Baseball
+		Author: Zack Ausbrooks
+		Date: 10-27-16
+	</!-->
+	
+	</head>
+
+<center><h1>About Me</h1></center>
+<center><h3>Baseball</h3></center>
+
+<body bgcolor="#3FFFBE">
+
+<link rel="stylesheet" href="styles1.css">
+
+<center><table border="1">
+
+<tr>
+
+<td align="center"> <a href = "index.html"> Home
+
+<td align="center"> <a href = "baseball.html"> Baseball
+
+<td align="center"> <a href = "Career.html"> Web Developer
+
+<td align="center"> <a href = "Ravens.html"> Ravens
+
+</table></center>
+
+<hr>
+
+
+<center><table border="10">
+<tr>
+	<td rowspan="2"><img width="300" height="300" src="baseball.jpg"></td>
+	<td rowspan="2"><img width="300" height="300" src="baseball2.jpg"></td>
+	
+</tr>
+<tr>
+	
+</tr>
+</table></center>
+
+<hr>
+
+<br>
+<center><h3> Some of the teams </h3></center>
+	<center<ul>
+	<center><li>Cubs
+	<li>Indians
+	<li>Dodgers
+	
+	<br>
+	<br>
+	
+	
+<p>Baseball is a bat-and-ball game played between two teams of nine players each, who take turns batting and fielding. The batting team attempts to score runs by hitting a ball that is thrown by the pitcher with a bat swung by the batter, then running counter-clockwise around a series of four bases: first, second, third, and home plate. A run is scored when a player advances around the bases and returns to home plate.</p>
+<br>
+<p> I have played baseball since I was about five years old.
+
+
+
+<Script>
+var imgArray = new Array (4);
+var index = 0;
+
+function doBack()
+{
+	if (index > 0)
+	{
+		index--;
+		document.slideshow.src = imgArray[index].src;
+	}
+	return;
+}
+
+function doNext()
+{
+	if (index < 3)
+	{
+		index++;
+		document.slideshow.src = imgArray[index].src;
+	}
+	return;
+}
+
+function startup()
+{
+	imgArray[0] = new Image;
+	imgArray[0].src = "cubs.jpg";
+	imgArray[1] = new Image;
+	imgArray[1].src = "cubs.jpg";
+	imgArray[2] = new Image;
+	imgArray[2].src = "indians.jpg";
+	imgArray[3] = new Image;
+	imgArray[3].src = "bluejays.jpg";
+	select();
+	return;
+}
+</script>
+
+<body onLoad="startup()">
+	<div align="center">
+	<h2>Some Baseball Teams</h2>
+	<p>
+			<img name="slideshow" src="mlb.jpg">
+		</p>
+		<p>
+			<a href="javascript:doBack()">Back</a>
+			&nbsp;&nbsp;&nbsp;
+			<a href="javascript:doNext()">Next</a>
+		</p>
+	</div>
+</body>
+
+
+
+</body>
+</html>

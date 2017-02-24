@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<title>
+ Christmas Ties
+</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<nav>
+
+ <a href="index.html">Home</a> |
+  <a href="music.html">Bands/Music</a> |
+  <a href="hobbies.html">Stocking</a> |
+  <a href="career page.html">Career page</a> |
+  <a href="pictures.html"> Pictures </a>
+	</nav>
+	
+	
+	
+	<p>
+	&copy; 2016 Casandra
+	</p>

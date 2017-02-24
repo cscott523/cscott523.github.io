@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>HTML and JavaScript Project 7-3</title>
+<script>
+var imgArray = new Array(4);
+var index = 0;
+function doBack()
+{
+	if (index > 0)
+	{
+	index--;
+	document.slideshow.src = imgArray[index].src;
+	}
+	return;
+	}
+	function doNext()
+	{
+	if (index < 7)
+	{
+	index++;
+	document.slideshow.src = imgArray[index].src;
+	}
+	return;
+	}
+
+
+	
+	function startup()
+	{
+	imgArray[0] = new Image;
+	imgArray[0].src = "dog.jpg";
+	imgArray[1] = new Image;
+	imgArray[1].src = "d.jpg";
+	imgArray[2] = new Image;
+	imgArray[2].src = "o.jpg";
+	imgArray[3] = new Image;
+	imgArray[3].src = "k.jpg";
+	imgArray[4] = new Image;
+	imgArray[4].src = "t.jpg";
+	imgArray[5] = new Image;
+	imgArray[5].src = "l.jpg";
+	imgArray[6] = new Image;
+	imgArray[6].src = "w.jpg";
+	imgArray[7] = new Image;
+	imgArray[6].src = "p.jpg";
+	select();
+	return;
+}
+</script>
+</head>
+
+<body onLoad="startup()">
+<div align="center">
+<h2>My JavaScript Slide Show</h2>
+<p>
+<img name="slideshow" src="dog.gif">
+</p>
+<p>
+<a href="javascript:doBack()">Back</a>
+	&nbsp;&nbsp;&nbsp;
+<a href="javascript:doNext()">Next</a>
+</div>
+</body>
+</html>

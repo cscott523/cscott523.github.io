@@ -1,0 +1,80 @@
+/*
+	Author: Brian
+	Date: 11/3/16
+	filename: styles.css
+*/
+body {
+	margin:0;
+	background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: auto;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+#header {
+	width: auto;
+	height: auto;
+}
+
+#content {
+	margin:0 auto;
+	padding: 10px;
+	background-color:grey;
+}
+
+div.absolute {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #73AD21;
+}
+
+.wrapper {
+	position:relative;
+}
+
+.side-image {
+    display: block; 
+	position:absolute; 
+	top:0; 
+	right:0; 
+	height:100%; 
+	width:200px;
+}
+
+#clock {
+	font-size: 40px;
+}
+
+#date {
+	font-size: 40px;
+}

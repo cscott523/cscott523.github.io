@@ -1,0 +1,109 @@
+<!doctype html>
+
+<head><title>Christmas Kingdom</title>
+<script>
+war imgarray = new Array(8);
+var index = 0;
+
+function doBack()
+{
+	if (index > 0)
+	{
+	   index--;
+	   document.slideshow.src = imgArray[index].src;
+	}
+	return;
+}
+
+function doNext()
+{
+	if (index < 7)
+	{
+		index++;
+		document.slideshow.src = imgArray[index].src;
+	}
+	return;
+}
+
+function startup()
+{
+imgArray[0].src = "tree.jpeg";
+imgArray[0].src = "clights.jpeg";
+imgArray[1].src = "jingle.jpeg";
+imgArray[1].src = "to.jpeg";
+return;
+}
+</script>
+
+<!--
+		file name:index.html
+		author:brett rippy
+		date:12/13/16
+	-->
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+
+<body bgcolor="red">
+<table border="1"style="width:100%">
+ 
+<ul>
+	<th><li><a href="page2 tree.html">Trees</a></li></th>
+	<th><li><a href="page3 light.html">Lights</a></li></th>
+	<th><li><a href="page4 music.html">Music</a></li></th>
+	<th><li><a href="page5 toys.html">Toys</a></li></th>
+</ul> 
+
+</table>
+<h1><div class=banner>Christmas Kingdom</div></h1>
+
+
+<onLoad="startup()">
+	<div align="center">
+<h2></h2>
+<p>
+	<img name="slideshow" src="tree.jpeg">
+</p>
+<p>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+</p>
+
+
+<h2><p>Come on down to Christmas Kingdom, we have all  that you need from Toys ,Trees, lights,  and even Music. You don't want to miss our holiday sale going on from 12/15/16 to 12/25/16.</p></h2>
+
+<h1>MERRY CHRISTMAS TO ALL</h1>
+
+
+
+
+
+
+
+
+
+</body>
+<a href="http://christmassnowman.net</a>
+
+<a href="http://www.edecorsource.com</a>
+
+<a href="http://www.stolinsky.com</a>
+
+<a href="http://www.toysrus.com</a>
+
+<footer>
+<p>Brett Rippy</p>
+<p>12/16/16</p>
+<img src="copy.jpeg">
+</footer>
+
+</html>

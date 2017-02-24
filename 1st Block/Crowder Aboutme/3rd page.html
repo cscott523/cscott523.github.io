@@ -1,0 +1,54 @@
+<!doctype html>
+	<html lang="en">
+		<head>
+			<title>Music page</title>
+				<script>
+					var blueArrow = new Image;
+					var redArrow = new Image;
+				function startup()
+					{
+						blueArrow.src = "blueArrow.gif";
+							redArrow.src = "redArrow.gif";
+						return;
+						}
+				function turnBlue()
+					{
+						document.arrow.src = blueArrow.src;
+						return;
+						}
+				function turnRed()
+					{
+						document.arrow.src = redArrow.src;
+						return;
+						}
+				</script>
+		</head>
+	<table border="5" bgcolor="#FF4D4D">
+		<tr>
+		<td align="center"><a href="index.html">Home page</a></td>
+			<td align="center"><a href="1st page.html">Hobbies</a></td>
+				<td align="center"><a href="2nd page.html">Pets page</a></td>
+			<td align="center"><a href="3rd page.html">Music page</a></td>
+		<td align="center"><a href="4th page.html">Career page</a></td>
+		</tr>
+	</table>
+	<body onLoad="startup()">
+<div align="center">
+		<a href="webpage.html" onMouseOut="turnBlue()" onMouseOver="turnRed()">
+			Next Page
+		</a>
+	<p>
+		<img name="arrow" src="blueArrow.gif">
+	</p>
+</div>
+			<header>
+				<h2 align="center">Music page</h2>
+			</header>
+				<img src="music.jpg" width="650px" align="right">
+		<p>I like country, rap, rock, dubstep, and heavy metal.</p>
+			<p>I like any kind of country music.</p>
+				<p>I like fast rapping music but with a smooth bass.</p>
+				<p>I like any kind of rock music.</p>
+			<p>I like any kind of dubstep music.</p>
+		<p>I like any kind of heavy metal music.</p>
+	</html>

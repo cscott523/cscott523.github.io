@@ -1,0 +1,58 @@
+.nav {
+	display:inline;
+	font-family:Comic Sans MS;
+	padding:80 80 80 80;
+	font-size:25px;
+
+}
+
+.bg {
+		background-color:#004d00;
+}
+
+.bar{
+	text-decoration:none;
+	color:black;
+}
+
+.bar:hover {
+	color:#cc0000;
+}
+.bd{
+	background-image:url(background.jpg);
+	background-repeat:initial;
+}
+ .video {
+	 display:inline;
+ }
+ 
+ .santa{
+	 display:inline;float:right;
+ }
+ .bl{
+	background-image:url(background.jpg);
+	background-repeat:initial; 
+	 
+ }
+ .tree{
+	 display:inline;
+	 float: left; 
+	 padding-left:250
+ }
+.uh {
+	display:inline;
+	
+}
+.s1 {
+	display:inline;
+	padding:10 10 10 10
+	
+}
+.copy {
+	font-family:verdana;font-size:15px;color:#d9d9d9
+	}
+	
+.table {
+	border: 1px solid black;
+	color:#1ad1ff
+}

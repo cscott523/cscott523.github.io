@@ -1,0 +1,29 @@
+/*
+About Me 
+Filename: Stylesheet.css
+
+Author: Leah Jent
+Date: 11/11/16
+
+*/
+h1 {
+
+font-family: Rakoon;
+font-size: 75px;
+color: #800080;
+}
+
+body {
+background-color: #00FFFF;
+}
+
+footer {
+background-color: #800080;
+color: #00FFFF;
+text-align: center;
+padding: 0.6em;
+}
+
+td:hover {text-align: center; background:#00FFFF;}
+td:hover a:active {color:#800080; text-align:center;}
+

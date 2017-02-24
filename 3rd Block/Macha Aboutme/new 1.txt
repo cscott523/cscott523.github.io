@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Index</title>
+		<style>
+			body{
+				background-image: url("");
+				background-repeat: repeat;
+				background-position: center;
+				background-color: light-grey;
+			}
+		</style>
+	</head>
+	<body>
+		<center>     
+			<header><font size=10 color=#fefefe></font></header>
+			<br>
+			<table border="1">
+				<tr>
+					<td><a href=""></a></td>
+					<td><a href=""></a></td>
+				</tr>
+				<tr>
+					<td><a href=""></a></td>
+					<td><a href=""></a></td>
+				</tr>
+			</table>
+		</center>
+	</body>
+</html>

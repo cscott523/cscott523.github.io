@@ -1,0 +1,80 @@
+/* 
+Author:   Casandra Adams
+   Date:     11-11-16 */
+   
+   
+/* body and page container */
+<body background="christmas background4.gif">
+
+/* reset style */
+
+	
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+							
+											
+li a:hover {
+    background-color: #111;
+}
+
+<ul>
+  <li><a class="#index" href="#home">Home</a></li>
+  <li><a href="#music and band">News</a></li>
+  <li><a href="#hobbies">Contact</a></li>
+  <li><a href="#career page">About</a></li>
+</ul>
+/* main content*/
+body
+p {
+    font-family:serif
+}
+<body background ="christmas-background-tile">
+
+div
+
+article
+width:70%
+float:right;
+width:30%
+p{padding: 1em 0;}
+	p{padding: 0.4em 0;}
+	margin: 0 0.6em;
+	
+
+	
+	
+
+/* headings */
+header {
+   background-color: ;
+}
+h1 {
+   color: black;
+   text-align: center;
+   
+}
+
+/* sidebar */
+
+
+
+
+/* footer section */
+
+
+
+/* navigation bar with social media icons */
+
+
+

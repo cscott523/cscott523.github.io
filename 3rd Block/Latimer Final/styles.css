@@ -1,0 +1,48 @@
+/* 
+	Latimer FINAL 
+	Filename: styles.css
+	Author: Seth Latimer  
+*/
+	body {
+	background: hs.jpg;
+	}
+	#left {
+	background-color: red;
+	}
+	a:link {
+    color: green;
+	}
+	a:visited {
+    color: green;
+	}
+	a:hover {
+    color: blue;
+	}
+	a:active {
+    color: red;
+	}	
+	.title {
+	color: green;
+	text-align: center;
+	padding: 0.4em;
+	background-color: red;
+	font-size: 425%;
+	font-family: brush script mt;
+	}
+	.explain {
+	color: red;
+	text-align: left;
+	padding: 0.4em;
+	background-color: green;
+	font-family: algerian;
+	font-size: 230%;
+	}
+	#space {
+	color: #9ff8ffbb;
+	font-size: 250%;
+	text-align: center;
+	}
+	#source {
+	color: blue;
+	text-align: right;
+	}

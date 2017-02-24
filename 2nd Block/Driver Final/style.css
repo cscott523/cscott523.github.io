@@ -1,0 +1,59 @@
+/* 
+   Santas workshop 
+   Filename: styles.css
+
+   Author:Luke Driver
+   Date(started):12/13/2016
+   Date(finished):
+ */
+ 
+ /*reset styles*/
+ article, body, div, footer, header, button, h3, textboxid, {
+	 border-width:0;
+	 padding:0;
+	 margin:0;
+ }
+ 
+/*body*/
+body {
+	background-color: green;
+	text-align: center;
+	max-width: 640px;
+	margin: 0 auto 0;
+	position: relative;
+	top: 11em;
+}
+
+/*heads*/
+header {
+	background-color: red;
+	width: 100%;
+	max-width: 640px;
+	top: 0;
+	/* z-index: -1; */
+}
+
+/*button*/
+button {
+	background-color: green;
+	border: solid red;
+}
+
+article{
+	background-color: red;
+	border: solid white;
+	max-width: 640px;
+}
+h3 {
+	font: "Courier New", Courier, monospace;
+}
+/*textboxid*/
+textboxid {
+	height: 200px;
+}
+footer {
+	background-color: red;
+	width: 100%;
+	max-width: 640px;
+	top: 0
+}

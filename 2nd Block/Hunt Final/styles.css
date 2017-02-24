@@ -1,0 +1,161 @@
+    body {
+        font: 24px Helvetica;
+		background-image: url("snowflakes.gif");
+		color: #ffffff;
+    }
+
+	/* children stuff */
+    #main {
+        min-height: 800px;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-flow: row;
+    }
+
+	
+    #main > nav {
+        margin: 16px;
+        padding: 20px;
+        border: 1px solid #5ea253;
+        border-radius: 5pt;
+        background: #5ea253;
+        flex: 1 6 15%;
+        order: 1;
+    }
+
+    #main > article {
+        margin: 16px;
+        padding: 20px;
+        border: 1px solid #5ea253;
+        border-radius: 7pt;
+        background: #5ea253;
+        flex: 3 1 85%;
+        order: 2;
+		text-align: center;
+    }
+
+    #main > aside {
+        margin: 4px;
+        padding: 5px;
+        border: 1px solid #5ea253;
+        border-radius: 7pt;
+        background: #5ea253;
+        flex: 1 6 0%;
+        order: 3;
+    }
+
+    header, footer {   	
+	    text-align: center;
+        display: block;
+        margin: 1px;
+        padding: 2px;
+        min-height: 100px;
+        border: 1px solid #5ea253;
+        border-radius: 7pt;
+        background: #5ea253;
+        }
+
+
+	/* link stuff */
+    a:link {
+    color: rgb(255, 255, 255);
+	text-decoration: none;
+    }
+
+    a:visited {
+    color: #990000;
+	text-decoration:none;
+    }
+
+    a:hover {
+    color: #5ea253;
+	text-decoration: underline;
+    }
+
+    a:active {
+    color: white;
+	text-decoration:none;
+    }
+
+	/* table stuff */
+	.table {
+		font: 24px Helvetica;
+		text-align: center;
+	}
+
+	/* flexbox stuff */
+	  .flex {
+        width: 700px;
+        height: 400px;
+        border: 0px;
+        font: 14px Arial;
+        display: flex;
+        flex-direction: row;
+    }
+
+     .flex > div {
+        flex: 1 1 auto;
+        width: 30px;
+        transition: width 0.7s ease-out;
+		font: 19px Helvetica;
+    }
+
+    .flex > div:nth-child(1){ background: #5ea253;
+	}
+	
+    .flex > div:nth-child(2){ background: #5ea253;
+	}
+	
+    .flex > div:nth-child(3){ background: #5ea253;
+	}
+
+    /* Remove Comment To Activate Flex Box
+
+    .flex > div:hover {
+        width: 250px;
+    }
+    
+    */
+
+    /* Dropdown stuff */
+.dropbtn {
+    background-color: #5ea253;   
+    color: white;
+    padding: 16px;
+    font: 24px Helvetica;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+	text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #5ea253;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px hsla(0, 0%, 0%, 0.2);
+}
+
+.dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #4e8845}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #5ea253;
+}

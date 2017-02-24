@@ -1,0 +1,22 @@
+
+<center>
+
+<table border="0">
+
+<tr>
+
+<td> <font color="black">  <font size="7"> <a href="Index.html"> Home </a> </font> </td>
+
+<td> <font color="black">  <font size="7"> <a href="CareerPage.html"> Career </a> </font> </td>
+
+<td> <font color="black">  <font size="7"> <a href="HobbiePage.html"> Hobbie's </a> </font> </td>
+
+<td> <font color="black">  <font size="7"> <a href="MusicPage.html"> Music/Band </a> </font> </td> 
+
+</font>
+
+</tr>
+
+</table>
+
+</center>

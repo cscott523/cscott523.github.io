@@ -1,0 +1,124 @@
+              <!DOCTYPE html>
+
+      <html lang="en">
+
+         <head>
+		 
+		 <!--Leah Jent
+		 3rd Block
+		 About Me Webpage-->
+ 
+         <title> About Me  </title>
+		 
+         </head>
+
+         <center> <h1>
+
+           About Me
+		
+		</h1> </center>	
+	 		 
+         <body>
+		 
+         <center>
+         
+         <table border="0">
+
+         <tr>
+
+         <td> <font color="black">  <font size="6"> <a href="index.html"> Home </a> </font> </td>
+
+         <td> <font color="black">  <font size="6"> <a href="Family.html">  Family </a> </font> </td>
+
+         <td> <font color="black">  <font size="6"> <a href="Career.html">  Career </a> </font> </td>
+
+         <td> <font color="black">  <font size="6"> <a href="Job.html">   Jobs </a> </font> </td> 
+
+         </font>
+
+         </tr>
+
+         </table>
+
+         </center>
+		 
+         </script>
+		 
+         <link rel="Stylesheet" href="Stylesheet.css">
+		 
+	     <marquee behavior="scroll" direction="left" > <font size="150px"> Welcome to my webpage!</marquee> </font>
+		 
+		 <center>
+		 <font size="+2">
+		 <script>
+		    if (navigator.appName == "Microsoft Internet Explorer")
+			{
+			   document.write("You are using Internet Explorer.");
+			}
+			else
+			{
+			   document.write("You are not using Internet Explorer.<br>");
+			   document.write("Perhaps you are using Firefox or Safari.");
+			}
+
+         </script>
+		 </font>
+	     </center>
+         <br>
+		 
+		 
+		 <center>
+		 <script type="text/javascript">
+tday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+
+function GetClock(){
+var d=new Date();
+var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getYear();
+if(nyear<1000) nyear+=1900;
+var nhour=d.getHours(),nmin=d.getMinutes(),ap;
+if(nhour==0){ap=" AM";nhour=12;}
+else if(nhour<12){ap=" AM";}
+else if(nhour==12){ap=" PM";}
+else if(nhour>12){ap=" PM";nhour-=12;}
+
+if(nmin<=9) nmin="0"+nmin;
+
+document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+ap+"";
+}
+
+window.onload=function(){
+GetClock();
+setInterval(GetClock,1000);
+}
+</script>
+<div id="clockbox" style="font:22pt Arial; color:#800080;"></div>
+</center>
+		
+         <p> <font size="+2">
+            My name is Leah Jent and I am 15 years old. I'm in 10th grade at Allen County Scottsville High School. This is my webpage to introduce myself to you and tell you about myself, my family, a possible future career and my part-time jobs.
+         </p> </font>
+
+         <img width="500" height="500" src="Images/Prom.png">
+
+         <img style="float:right; width="500" height="500" src="Images/Me.png">
+		 
+		 <br>
+		 <br>
+		
+		 <a href="mailto:leah.jent@stu.allen.kyschools.us"> Email Me </a>
+		 
+		 <br>
+		 
+		 <a href="http://www.facebook.com"> Check me out on Facebook! </a>
+		 
+	     </body>
+		 
+		 <SCRIPT SRC="http://www.mrsitetemplates.com/sukhsnow.js"></SCRIPT>
+
+         
+         <hr>
+         <footer>
+            Leah Jent &copy; 2016
+		 </footer>
+         </html>

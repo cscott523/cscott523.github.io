@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Christmas Store</title>
+      <!-- 
+        Christmas Store final
+         Filename: index.html
+
+         Author:  Mattie Ward 
+         Date:     12-12-16
+      -->
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="styles.css">
+	  <script>
+	function doClear()
+	{
+		document.PizzaForm.customer.value= "";
+		document.PizzaForm.address.value= "";
+		document.PizzaForm.city.value= "";
+		document.PizzaForm.state.value= "";
+		document.PizzaForm.zip.value= "";
+		document.PizzaForm.phone.value= "";
+
+		document.PizzaForm.sizes[0].checked = false;
+		document.PizzaForm.sizes[1].checked = false;
+		document.PizzaForm.sizes[2].checked = false;	
+		document.PizzaForm.toppings[0].checked = false;
+		document.PizzaForm.toppings[1].checked = false;
+		document.PizzaForm.toppings[2].checked = false;
+		document.PizzaForm.toppings[3].checked = false;
+		document.PizzaForm.toppings[4].checked = false;
+		document.PizzaForm.toppings[5].checked = false;
+		return;
+	}
+	
+	function doSubmit()
+	{
+		if (validateText() == false)
+		{
+			alert("Required data missing in Step 1");
+			return;
+		}
+		if (validateRadio() == false)
+		{
+			alert("Required data missing in step 2.");
+			return;
+		}
+		alert("Your pizza order has been submitted.");
+		return;
+	
+	function validateText()
+	{
+		var customer = document.PizzaForm.customer.value;
+		if (customer.length == 0) return false;
+		var address = document.PizzaForm.address.value;
+		if (address.length == 0) return false;
+		var city = document.PizzaForm.city.value;
+		if (city.length == 0) return false;
+		var phone = document.PizzaForm.phone.value;
+		if (phone.length == 0) return false;
+		return true;
+	}
+	function validateRadio()
+	{
+		if (document.PizzaForm.sizes[0].checked) return true;
+		if (document.PizzaForm.sizes[1].checked) return true;
+		if (document.PizzaForm.sizes[2].checked) return true;
+		return false;
+	}
+</script>
+</head>
+
+<body>
+  <div class="container">
+  <header><img height="90" width="110" align="left" src="logo.png"> <center><h1>Welcome!</h1></center></header>
+	<center>
+		<table cellpadding="7">
+
+		<tr>
+
+			<td align="center"> <a href= "page 1.html"> Home</a> </td>
+			<td align="center"> <a href= "page 2.html"> Ornaments </a></td>
+			<td align="center"> <a href= "page 3.html"> Stockings </a></td>
+			<td align="center"> <a href = "page 4.html"> Christmas Trees</a> </td>
+			<td align="center"> <a href = "page 5.html"> Wrapping Paper</a> </td>
+			<td align="center"> <a href = "page 6.html"> Place an Order</a> </td>
+			<td align="center"> <a href= "index.html"> About Us </a> </td>
+
+	</table>
+	</center>
+	<br>
+	<br>
+	<form name="PizzaForm">
+		<h1>Ordering</h1>
+		<p>
+			<center><h4> Enter your name, address, and phone number:</h4></center>
+			<font face="Juice ITC Regular">
+				Name: &nbsp;&nbsp;&nbsp;<input name= "customer" size="50"
+				type="text"><br>
+				Address: <input name="address" size"50" type="text"><br>
+				City: &nbsp;&nbsp;&nbsp;<input name="city" size="15" type="text">
+				State: <input name="state" size="2" type="TEXT">
+				Zip: <input name="zip" size="5" type="text"><br>
+				Phone: &nbsp;&nbsp;<input name="phone" size="50" type="text"><br>
+			</font>
+		</p>
+		<p>
+			<center><h4>Ornamnts</h4>
+			<font face="Juice ITC Regular">
+				<input name="sizes" type="radio">Gold Beaded
+				<input name="sizes" type="radio">Red Beaded
+				<input name="sizes" type="radio">Pink and Gold<br>
+				<input name="sizes" type="radio">Pink Sparkly 
+				<input name="sizes" type="radio">Gold Stripes
+				<input name="sizes" type="radio">Red Sparkly<br>
+			</font></center>
+		</p>
+		<p>
+			<center><h4>Stokcings</h4>
+				<input name="sizes" type="radio">Red & White (4ct.)
+				<input name="sizes" type="radio">burlap & Bows(4ct.)
+				<input name="sizes" type="radio">Red & Green Sweater(4ct.)<br>
+				<input name="sizes" type="radio">Red& Green stripes(4ct.)
+				<input name="sizes" type="radio">Plain Burlap(4ct.)
+				<input name="sizes" type="radio">Burlap & Fur(4ct.)<br>
+				<br>
+				<br>
+				Monograming: &nbsp;&nbsp;&nbsp;<input name= "customer" size="50"
+				type="text"><br>
+		</p>
+		<br>
+				<br>
+		<input type="button" value="Submit Order" onClick="doSubmit()">
+		<input type="button" value="Clear Entries" onClick="doClear()">
+		</center>
+	</form>
+	<br>
+		<br>
+		<form name="EmailForm">
+			<font face= "Hobo Std Medium" color="pink">
+				Recieve our emails! &nbsp;&nbsp;<input name= "customer" size="15"
+				type="text">
+			<input type="button" value="Sign up!"  onClick="doSubmit()">
+				
+		
+		<hr>
+		<center>
+		<p>Mattie Ward, 2016 &#169;</p>
+		</center>
+</body>
+
+</html>
+		
+	  
+	  
+
+	

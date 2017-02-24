@@ -1,0 +1,90 @@
+/* 
+   About Me
+   Filename: styles.css
+
+   Author: Mattie Ward  
+   Date:     11-10-16
+   
+ */
+ /*
+	reset syles
+*/ 
+article, body, div,  footer, header, h1, h2,  p{
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+/* body and page container */
+.container {
+	max-width: 640px;
+	margin: 0 auto;
+	background-color: beige;
+	
+}
+body { 
+	background-image: url("background.jpg");
+	}
+p {
+		text-align: center;
+		color: black;
+		font-style: Hobo Std Medium;
+	}
+
+
+/* headings */
+header {
+   background-color: #8C001A;
+   padding:30px;
+}
+h1 {
+   padding: 0.4em;
+   color: pink;
+   text-align: center;
+   font-style: Hobo Std Medium;
+   
+}
+ h2 {
+	    padding: 0.4em 0.6em;
+		
+ }
+ /*main content*/
+ article {
+	 
+	 width: 70%;
+	float: right;
+ }
+ article p {
+	    padding: 0 1em 1em;
+		
+ }
+
+/* sidebar */
+aside {
+	width: 30%;
+   padding: 1em 0;
+   background-color: goldenrod;
+}
+aside p {
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	padding: 0.4em 0;
+	margin: 0 0.6em;
+}
+
+/* footer section */
+footer {
+   padding: 30pxem;
+   color: #8C001A;
+   background-color: black;
+   text-align: center;
+   clear: right;
+   
+}
+footer p{
+	   margin: 0.4em;
+	   
+}
+footer p.accent {
+   color: goldenrod;
+}

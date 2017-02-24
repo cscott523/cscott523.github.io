@@ -1,0 +1,108 @@
+
+
+	/*Christmas StyleSheet
+	  File Name: Styles.css
+	  Author: Kalee Skaggs
+	  Date: 12/12/16
+	 */
+			
+			
+			
+			Body {
+				Background-image: url("image.jpg");
+				Text-align: left;
+				font-family: satisfy, cursive;
+				}
+			footer {text-align:left;
+					color: green;
+					background-color: white;
+					}
+			p {color: red;
+			font-family:satisfy, cursive;
+			position: relative;
+				}
+			footer{color: green;
+			font-family:
+				}
+			h1, h2  {
+			background-color: green;
+			font-family: Satisfy, cursive;
+			position: relative;
+			color: red;
+				}
+		ul{ color: green;
+		font-family: satisfy, cursive;
+		
+				}
+		div{
+			margin: 10;
+			padding: 10;
+			position: relative;
+		}
+	
+img{ 
+	float: center;
+}
+
+
+
+
+
+	
+#intro{
+	padding: 70;
+	margin: 5px auto;
+	background-color: white;
+	float: center;
+	vertical-align: center;
+	font-weight: 850px;
+	text-transform: none;
+	font-size: 2em;
+	width: 900px;
+	color: green;
+	
+}
+
+
+
+#table{
+	background-color: white;
+	color: red;
+	size: 1em;
+}
+
+#christmas{
+	font-size: 2em;
+	color: red;
+}
+#fam{
+	font-size: 2em;
+}
+
+#order{
+	font-size: 1em;
+	background-color: green;
+	color: black;
+	padding: 70%
+	margin: 5px auto;
+	float: center;
+	vertical-align: center;
+	font-weight: 850px;
+	width: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

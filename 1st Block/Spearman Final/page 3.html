@@ -1,0 +1,112 @@
+<!doctype html>
+
+<html lang="en">
+
+   <head>
+
+      <title>Final</title>
+	  
+	  <!--
+	     about me
+		 file name:index.html
+		 
+		 author:justin spearman
+		 date:12/13/16
+	  _-->
+	  
+	  <meta charset="utf-8">
+	  <link rel="stylesheet" href="styles.css">
+	  
+	  <script>
+var imgArray = new Array(4);
+var index = 0;
+
+function doBack()
+{
+if (index > 0)                             
+}                                                                                                                                                     
+{                                                                                                        
+   index--;
+   document.slideshow.src = imgArray[index].src;
+}
+   return;
+ }
+ 
+ function doNext()
+ {
+    if (index < 3)
+	{
+	   index++;
+	   document.Slideshow.src = imgArray[index].src;
+	   }
+	   return;
+      }
+ 
+ function startup()
+ {
+   imgArray[0] = new Image;
+   imgArray[0].src = "turkey.jpg";
+   imgArray[1] = new Image;
+   imgArray[1].src ="cake.jpg";
+   imgArray[2] = new Image;
+   imgArray[2].src = "desert.jpg";
+   select();
+   return;
+}
+</script>
+	  
+   </head>
+   
+<body background="christmas pic.jpg">
+
+    <table border="4" width=100%>
+
+   <tr>
+   
+         <td align="center"> <a href="page 2.html"> BACK </a> </td>
+
+         <td align="center"> <a href="index.html"> HOME </a> </td>
+
+         <td align="center"> <a href="page 4.html"> NEXT </a> </td>
+		 
+		 
+   </tr>
+
+   </table>
+   
+   <br>
+   
+   <div class="banner"> <h1>Frosty's Lair</h1> </div>
+   
+   <br>
+   
+      <p>We have the largest selection of food in any store around to make sure you have the food you want for your perfect christmas. We have the best prices on food also because we want everyone to have the perfect christmas even people who are hurting finacialy because we are here for the people at Frosty's Lair. We want to make everyones christmas magical that is our mission here at Frosty's Lair!</p>
+	  
+	  <hr>
+	  <br>
+	  
+	     <div align="left"><img src="turkey.jpg"></div>
+		 <div align="right"><img src="cake.jpg"></div>
+		 
+		     <div align="center">
+      <h2>My JavaScript Slide Show</h2>
+	  <p>
+      <img name="slideshow" src="turkey.jpg">
+	  </p>
+	  <p>
+	     <a href="javascript:doBack()">Back</a>
+		 &nbsp;&nbsp;&nbsp;
+		 <a href="javascript:DoNext()">Next</a>
+      </p>
+   </div>
+		 
+   
+</body>
+
+<footer>
+<img src="copyright.png">
+<p>justin spearman</p>
+<p>12/14/16</p>
+</footer>
+
+</html>

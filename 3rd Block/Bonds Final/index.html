@@ -1,0 +1,130 @@
+<!doctype html>	
+	<html lang="en">
+	
+	<head>
+	<title>Christmas Ties!!</title>
+	<link rel="stylesheet" href="styles.css" type="text/css">
+	</head>
+
+
+
+
+	<body bgcolor="green">
+	<center><h1>Christmas Ties</h1></center>
+	<div id="navbar">
+		<table border="4" width="100%">
+			<tr>
+			<td><a href="page1.html">Christmas Songs</a></td>
+			<td><a href="page2.html">Christmas Cartoons</a></td>
+			<td><a href="page3.html">Christmas Food</a></td>
+			<td><a href="page4.html">Reasons for Christmas</a></td>
+			<td><a href="page5.html">Christmas Movies</a></li>
+		</tr>
+		</table>
+	</div>
+	
+	<p>Hi, and welcome to the Christmas Ties web site were all your questions about Christmas will be answered, plus this is also a gift shop for anything Christmas related</p>
+	
+	<script>
+function doClear()
+{
+document.christmas shopping.customer.value = "";
+document.christmas shopping.address.value = "";
+document.christmas shopping.city.value = "";
+document.christmas shopping.state.value = "";
+document.christmas shopping.zip.value = "";
+document.christmas shopping.phone.value = "";
+
+document.christmas shopping.sizes[0].checked = false;
+document.christmas shopping.sizes[1].checked = false;
+document.christmas shopping..sizes[2].checked = false;
+document.christmas shopping.picture[0].checked = false;
+document.christmas shopping.picture[1].checked = false;
+document.christmas shopping.]picture[2].checked = false;
+document.christmas shopping.]picture[3].checked = false;
+document.christmas shopping.]picture[4].checked = false;
+document.christmas shopping.]picture[5].checked = false;
+return;
+}
+function doSubmit()
+{
+if validateText() == false)
+{
+alert ("Required data missing in step 1");
+}
+if (validateRadio() == false)
+{
+alert ("required data missing in step 2");
+}
+{
+alert("Your Picture frame order has been submitted.");
+return;
+}
+function validateText()
+{
+var customer = document.picture frame.customer.value;
+if (customer.length == 0) return false;
+var address = document.Picture frame.address.value;
+if(address.length == 0) return false;
+var city = document.Picture frame.city.value;
+if (city.length == 0) return false;
+var phone = document.Picture frame.phone.value;
+if (phone.length == 0) return false;
+return true;
+}
+function validateRadio()
+{
+if (document.PizzaForm.sizes[0].checked) return true;
+if (document.PizzaForm.sizes[1].checked) return true;
+if (document.PizzaForm.sizes[2].checked) return true;
+return false;
+}
+</script>
+</head>
+
+<body>
+<form name="PizzaForm">
+<center><h1>The Christmas Ties Picture Frames</h1></center>
+<p>
+<h4>step 1: Enter your name, address, and pone number:</h4>
+<font face="Courier new">
+Name: &nbsp;&nbsp;&nbsp;&nbsp;<input name="customer" size="50"
+type="text"><br>
+address: <input name="address" size="50" type="text"><br>
+City: &nbsp;&nbsp;&nbsp;<input name="address" size="50" type="text"><br>
+State: &nbsp;&nbsp;&nbsp;<input name="zip" size="5" type="text><br>
+Zip: &nbsp;&nbsp;<input name="phone" size="50" type="text"><br>
+Email: &nbsp;&nbsp;&nbsp;<input name="phone" size="50" type="text"<br>
+</font>
+</p>
+<p>
+<h4>Step 2: Select the size of picture frame you want:</h4>
+<font face="Courier new">
+<input name="sizes" type="radio">Small
+<input name="sizes" type="radio">Medium
+<input name="sizes" type="radio">Large<br>
+<input name="sizes" type="radio">Jumbo
+</font>
+</p>
+<p>
+<h4>Step 3: Select the picture frame you want:</h4>
+<font face="Courier new">
+<input name="picture frame" type="checkbox">Santa
+<input name="picture frame" type="checkbox">Elves
+<input name="picture frame" type="checkbox">Reindeer<br>
+<input name="picture frame" type="checkbox">Frosty
+<input name="picture frame" type="checkbox">Snow
+<input name="picture frame" type="checkbox">Elsa<br>
+<input name="picture frame" type="checkbox">Olof
+<input name="picture frame" type="checkbox">Sven
+</font>
+</p>
+<center><input type="button" value="Submit Order" onClick="doSubmit()">
+<input type="button" value="Clear Entries" onClick="doClear()"></center>
+</form>
+
+<marquee> &copy; Caleb Bonds 2016 </marquee>
+
+</body>
+</html>
+	
